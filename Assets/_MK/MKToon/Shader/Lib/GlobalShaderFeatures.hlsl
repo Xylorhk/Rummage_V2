@@ -20,11 +20,11 @@
 	// Customize the outline fading style (linear by default)
 	// Outline Fade has to be enabled
 	//%%MK_OUTLINE_FADING_LINEAR
-	//!!
+	/*!!
 	#ifndef MK_OUTLINE_FADING_LINEAR
 		#define MK_OUTLINE_FADING_LINEAR
 	#endif
-	//$$
+	$$*/
 	
 	//%%MK_OUTLINE_FADING_EXPONENTIAL
 	/*!!
