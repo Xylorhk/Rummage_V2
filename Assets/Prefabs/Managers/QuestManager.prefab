@@ -1,0 +1,776 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5636452110327323314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5636452110327323315}
+  - component: {fileID: 5636452110327323312}
+  - component: {fileID: 5636452110327323313}
+  m_Layer: 0
+  m_Name: QuestManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5636452110327323315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636452110327323314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2974971339988426441}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5636452110327323312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636452110327323314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc842bdd7a921754785a1ee01d79e0f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questFlavorTimer: 4
+  questMarker: {fileID: 21300000, guid: 19a1159fc74bf7947b936a533b82e706, type: 3}
+  questStartSFX: QuestStart
+  objectiveFinishSFX: ObjectiveFinish
+  questFinishSFX: QuestFinish
+  activateFirstOnStart: 0
+  questActivationRadius: 3
+  markerGO: {fileID: 2974971339988426444}
+  levelQuests:
+  - questName: Start your adventure
+    questStartSceneName: Receiving Station Hub
+    questStartLocation: {x: 111.7, y: 25.129, z: 13.1}
+    isActive: 0
+    isCompleted: 0
+    OnQuestComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    currentObjective: 0
+    objectives:
+    - levelName: Receiving Station Hub
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 0
+      objectiveDescription: Grab your Level 1 Chassis.
+      isCompleted: 0
+      numbOfCompleteEvents: 0
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls: []
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Lvl. 1 Chassis
+      itemType: 0
+      npcName: 
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: 
+    - levelName: Receiving Station Hub
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 0
+      objectiveDescription: Collect your pole grip.
+      isCompleted: 0
+      numbOfCompleteEvents: 1
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ElectricalBox, Assembly-CSharp
+            m_MethodName: SetPowerEvent
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      activationRadius: 4
+      targetWorldPosition: {x: 129, y: 19.9, z: 77.6}
+      itemName: Pole
+      itemType: 2
+      npcName: 
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: 
+  - questName: Fix the Oilworks!
+    questStartSceneName: Receiving Station Hub
+    questStartLocation: {x: 81.72, y: 25.129, z: 11.7}
+    isActive: 0
+    isCompleted: 0
+    OnQuestComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    currentObjective: 0
+    objectives:
+    - levelName: Oilworks
+      numbOfStartEvents: 1
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: Item, Assembly-CSharp
+            m_MethodName: SetPickUp
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      goalType: 0
+      objectiveDescription: It seems the AI in this area have let it flood! Remove
+        the power source to drain the oil!
+      isCompleted: 0
+      numbOfCompleteEvents: 8
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: LiquidDrain, Assembly-CSharp
+            m_MethodName: StartDraining
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: SaveEnabledState, Assembly-CSharp
+            m_MethodName: ShouldEnableObject
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ElectricalBox, Assembly-CSharp
+            m_MethodName: SetPowerEvent
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ElectricalBox, Assembly-CSharp
+            m_MethodName: SetPowerEvent
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: SceneExit, Assembly-CSharp
+            m_MethodName: UpdateCanUseExit
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: RotationalObject, Assembly-CSharp
+            m_MethodName: ShouldRotate
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: SaveEnabledState, Assembly-CSharp
+            m_MethodName: ShouldEnableObject
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: SaveEnabledState, Assembly-CSharp
+            m_MethodName: ShouldEnableObject
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Power
+      itemType: 1
+      npcName: 
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: 
+    - levelName: Oilworks
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 2
+      objectiveDescription: Find a new way back to the main hub!
+      isCompleted: 0
+      numbOfCompleteEvents: 1
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: SceneExit, Assembly-CSharp
+            m_MethodName: UpdateCanUseExit
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      activationRadius: 4
+      targetWorldPosition: {x: 129, y: 19.9, z: 77.6}
+      itemName: Power
+      itemType: 1
+      npcName: 
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: 
+  - questName: Fix the Sorting Yard!
+    questStartSceneName: Receiving Station Hub
+    questStartLocation: {x: 106.1, y: 25, z: 79.4}
+    isActive: 0
+    isCompleted: 0
+    OnQuestComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    currentObjective: 0
+    objectives:
+    - levelName: Sorting Yard
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 3
+      objectiveDescription: Talk to the disgruntled worker bot.
+      isCompleted: 0
+      numbOfCompleteEvents: 0
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls: []
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: 
+      itemType: 0
+      npcName: Tut
+      npcDialogue: {fileID: 4900000, guid: e29fdb4b5959f804eba178b5b4b15e95, type: 3}
+      npcSprite: {fileID: 0}
+      numberToCollect: 0
+      collectedAmount: 0
+      externalObjectiveName: 
+    - levelName: Sorting Yard
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 0
+      objectiveDescription: Find the grabber!
+      isCompleted: 0
+      numbOfCompleteEvents: 0
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls: []
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Grabber
+      itemType: 1
+      npcName: Tut
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: 
+    - levelName: Sorting Yard
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 3
+      objectiveDescription: Return to Tut.
+      isCompleted: 0
+      numbOfCompleteEvents: 0
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls: []
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Grabber
+      itemType: 1
+      npcName: Tut
+      npcDialogue: {fileID: 4900000, guid: 5ba5b4aaf7bae244db099c5104f38458, type: 3}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: 
+    - levelName: Sorting Yard
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 6
+      objectiveDescription: Find Mr. Crane and power him up!
+      isCompleted: 0
+      numbOfCompleteEvents: 2
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_MethodName: SetParent
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+            m_MethodName: set_isKinematic
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Grabber
+      itemType: 1
+      npcName: Tut
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: CranePuzzle
+    - levelName: Sorting Yard
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 0
+      objectiveDescription: Collect the source of the power surge.
+      isCompleted: 0
+      numbOfCompleteEvents: 1
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ElectricalBox, Assembly-CSharp
+            m_MethodName: SetBatteryStatus
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Detector
+      itemType: 1
+      npcName: Tut
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: CranePuzzle
+    - levelName: Sorting Yard
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 3
+      objectiveDescription: Return to Tut.
+      isCompleted: 0
+      numbOfCompleteEvents: 1
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: TutEffectorActions, Assembly-CSharp
+            m_MethodName: UpdateCanHit
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Detector
+      itemType: 1
+      npcName: Tut
+      npcDialogue: {fileID: 4900000, guid: 5ff639bf8e9761344b44587771ca645a, type: 3}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: CranePuzzle
+    - levelName: Sorting Yard
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 6
+      objectiveDescription: Overcharge Tut's camo plating!
+      isCompleted: 0
+      numbOfCompleteEvents: 0
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls: []
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Detector
+      itemType: 1
+      npcName: Tut
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: TutLeg
+    - levelName: Sorting Yard
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 3
+      objectiveDescription: Talk to Tut.
+      isCompleted: 0
+      numbOfCompleteEvents: 1
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: InvisibleNPCManager, Assembly-CSharp
+            m_MethodName: ShouldDetect
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Detector
+      itemType: 1
+      npcName: Tut
+      npcDialogue: {fileID: 4900000, guid: 3df83238cf078af42b3110451e653cb3, type: 3}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: TutLeg
+    - levelName: Sorting Yard
+      numbOfStartEvents: 1
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ElectricalBox, Assembly-CSharp
+            m_MethodName: SetPowerEvent
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      goalType: 6
+      objectiveDescription: Find all 5 of the main yard workers!
+      isCompleted: 0
+      numbOfCompleteEvents: 4
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: SaveEnabledState, Assembly-CSharp
+            m_MethodName: ShouldEnableObject
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: SaveEnabledState, Assembly-CSharp
+            m_MethodName: ShouldEnableObject
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: SaveEnabledState, Assembly-CSharp
+            m_MethodName: ShouldEnableObject
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: SaveEnabledState, Assembly-CSharp
+            m_MethodName: ShouldEnableObject
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      activationRadius: 0
+      targetWorldPosition: {x: 0, y: 0, z: 0}
+      itemName: Detector
+      itemType: 1
+      npcName: Tut
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: InvisibleNPCPuzzle
+    - levelName: Sorting Yard
+      numbOfStartEvents: 0
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls: []
+      goalType: 2
+      objectiveDescription: Leave the Sorting Yard.
+      isCompleted: 0
+      numbOfCompleteEvents: 0
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls: []
+      activationRadius: 3
+      targetWorldPosition: {x: 11.4, y: 20, z: 135.5}
+      itemName: Detector
+      itemType: 1
+      npcName: Tut
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 1
+      collectedAmount: 0
+      externalObjectiveName: InvisibleNPCPuzzle
+  - questName: Leave the Hub.
+    questStartSceneName: Receiving Station Hub
+    questStartLocation: {x: 26.4, y: 25, z: 94.1}
+    isActive: 0
+    isCompleted: 0
+    OnQuestComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    currentObjective: 0
+    objectives:
+    - levelName: Receiving Station Hub
+      numbOfStartEvents: 2
+      OnObjectiveStart:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ElectricalBox, Assembly-CSharp
+            m_MethodName: SetBatteryStatus
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      goalType: 2
+      objectiveDescription: Open the gates!
+      isCompleted: 0
+      numbOfCompleteEvents: 1
+      OnObjectiveComplete:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+            m_MethodName: FadeLoadMainMenu
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      activationRadius: 3
+      targetWorldPosition: {x: 152.7, y: 25, z: 57.7}
+      itemName: 
+      itemType: 0
+      npcName: 
+      npcDialogue: {fileID: 0}
+      npcSprite: {fileID: 0}
+      numberToCollect: 0
+      collectedAmount: 0
+      externalObjectiveName: 
+  currentQuestIndex: 0
+--- !u!114 &5636452110327323313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636452110327323314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d256da51771bb4d914542dff364be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 5c5f138b-7cc6-4f48-8f81-e8ad19df8fb8
+  shouldCrossRef: 1
+--- !u!1001 &3883427978782849012
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5636452110327323315}
+    m_Modifications:
+    - target: {fileID: 2066463385243904312, guid: e3f7abd0fa964de4e887e24c60d6cd86,
+        type: 3}
+      propertyPath: m_Name
+      value: ObjectiveWorldMarker
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066463385243904317, guid: e3f7abd0fa964de4e887e24c60d6cd86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066463385243904317, guid: e3f7abd0fa964de4e887e24c60d6cd86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066463385243904317, guid: e3f7abd0fa964de4e887e24c60d6cd86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066463385243904317, guid: e3f7abd0fa964de4e887e24c60d6cd86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3f7abd0fa964de4e887e24c60d6cd86, type: 3}
+--- !u!1 &2974971339988426444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2066463385243904312, guid: e3f7abd0fa964de4e887e24c60d6cd86,
+    type: 3}
+  m_PrefabInstance: {fileID: 3883427978782849012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2974971339988426441 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2066463385243904317, guid: e3f7abd0fa964de4e887e24c60d6cd86,
+    type: 3}
+  m_PrefabInstance: {fileID: 3883427978782849012}
+  m_PrefabAsset: {fileID: 0}

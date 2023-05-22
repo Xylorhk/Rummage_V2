@@ -1,0 +1,7 @@
+Right, so that there is a Grabber. To use it, simply have the end collide with what 
+you want to grab and press the <i>LMB</i>. Press that same button to drop 
+the grabbed object.~
+The grabber has a limit, it can't carry anything too heavy, so don't go trying to swing it 
+at everything!~
+Now go find the source of that power surge! I think it's over by Mr. Crane, you'll know him 
+when you see him. I'm gonna work on finding a battery for this here door.

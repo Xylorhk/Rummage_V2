@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4940080280662811826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4940080280662811827}
+  - component: {fileID: 4940080280662811824}
+  - component: {fileID: 7137261064319561040}
+  m_Layer: 0
+  m_Name: Inventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4940080280662811827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4940080280662811826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4940080280662811824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4940080280662811826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01dcbf3714eb0924f85f679f6b154e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chassisDataModels: []
+  itemDataModels: []
+  currentEquippedGO: {fileID: 0}
+  playerItemHandler: {fileID: 0}
+  dropTransform: {fileID: 0}
+  amountOfScrap: 0
+  inventoryItemPanel: {fileID: 0}
+  inventoryItemBox: {fileID: 4824178839592849956, guid: 46492e80505148b40857e3cdb8c1e153,
+    type: 3}
+  maxNumbofColumns: 5
+  inventoryPanelGridLayout: {fileID: 0}
+  inventoryPanel: {fileID: 0}
+  scrapText: {fileID: 0}
+  selectedInspectorImage: {fileID: 0}
+  selectedItemTitle: {fileID: 0}
+  selectedItemDescription: {fileID: 0}
+  selectedItemAttachedComponents: {fileID: 0}
+  dropItemButton: {fileID: 0}
+  equipItemButton: {fileID: 0}
+  unequipItemButton: {fileID: 0}
+  restoreItemButton: {fileID: 0}
+--- !u!114 &7137261064319561040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4940080280662811826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d256da51771bb4d914542dff364be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: d37790d4-aef9-4af9-bdaf-21bfd93b92ea
+  shouldCrossRef: 1
