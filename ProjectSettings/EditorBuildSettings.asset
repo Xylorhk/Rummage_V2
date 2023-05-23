@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Rummage_V2 Export/MainScenes/Main Menu.unity
+    guid: c989f4d632cfd3942aa7181ebb07bfa3
+  - enabled: 1
+    path: Assets/Rummage_V2 Export/MainScenes/Starting area.unity
+    guid: 03e344b3fe253c54ba84e518bac71f27
+  - enabled: 1
+    path: Assets/Rummage_V2 Export/MainScenes/Tutorial Pit.unity
+    guid: 2da3dff6345b51e4db5de8bf69df65bc
+  - enabled: 1
+    path: Assets/Rummage_V2 Export/MainScenes/Railyard Hub.unity
+    guid: 165d35c9eeadcb745a3ca7a155ae578d
+  - enabled: 1
+    path: Assets/Rummage_V2 Export/MainScenes/Industrial Level.unity
+    guid: 1d35890255191b64d92171082289c191
+  - enabled: 1
+    path: Assets/Rummage_V2 Export/MainScenes/Credits.unity
+    guid: 963bd33ba136dfd44a44025909467f0a
   m_configObjects: {}

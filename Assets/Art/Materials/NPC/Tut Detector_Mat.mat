@@ -278,6 +278,7 @@ Material:
     - _OutlineSize: 8.4
     - _OutlineTab: 1
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _Radius: 0
     - _ReceiveShadows: 1
