@@ -167,6 +167,7 @@ namespace Broccoli.Catalog
 			}
 			return false;
 			#endif
+			return false;
 		}
 		/// <summary>
 		/// Reloads the packages available for the catalog.

@@ -1,33 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4939135421440649766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d309d34ca22cb5d4f91a635395eded23, type: 3}
-  m_Name: UniStormCloudShadowsFeature
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  settings:
-    isEnabled: 1
-    renderPassEvent: 400
-    Fade: 0.33
-    CloudShadowTexture: {fileID: 0}
-    ShadowColor: {r: 1, g: 1, b: 1, a: 1}
-    CloudTextureScale: 0.001
-    BottomThreshold: 0.5
-    TopThreshold: 1
-    ShadowIntensity: 0
-    ScreenSpaceShadowsMaterial: {fileID: 0}
-    ShadowDirection: {x: -0.34202015, y: -0.20151089, z: 0.917832}
-    m_CurrentCloudHeight: 500
-    CloudSpeed: 5
-    NormalY: 0
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,10 +40,6 @@ MonoBehaviour:
       type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: -4939135421440649766}
-  - {fileID: 6131039420385424104}
-  - {fileID: 5079524590437508770}
-  - {fileID: 7875445154054207603}
   m_RendererFeatureMap: adc0de57c6d2eee5
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -113,90 +81,3 @@ MonoBehaviour:
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 1
---- !u!114 &5079524590437508770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b47d9523e62ddd48b8ae2826026b4f3, type: 3}
-  m_Name: SunUniStormSunShaftsFeature
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  settings:
-    isEnabled: 1
-    renderPassEvent: 500
-    resolution: 1
-    screenBlendMode: 0
-    sunTransform: {fileID: 0}
-    radialBlurIterations: 2
-    sunColor: {r: 0.5582314, g: 0.37355006, b: 0.27296618, a: 1}
-    sunThreshold: {r: 0.5568628, g: 0.5372549, b: 0.48235294, a: 1}
-    sunShaftBlurRadius: 3
-    sunShaftIntensity: 1
-    maxRadius: 0.5
-    useDepthTexture: 1
---- !u!114 &6131039420385424104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1b1f8e52a528414eb09a2a63238d9d6, type: 3}
-  m_Name: UniStormAtmosphericFogFeature
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  settings:
-    isEnabled: 1
-    renderPassEvent: 400
-    NoiseTexture: {fileID: 2800000, guid: e09deeeaec0a3c547a3b72ad3d615255, type: 2}
-    Dither: 0
-    distanceFog: 1
-    useRadialDistance: 1
-    heightFog: 0
-    height: 1
-    heightDensity: 2
-    startDistance: 0
-    SunColor: {r: 0.75574034, g: 0.51045346, b: 0.37616152, a: 1}
-    MoonColor: {r: 0.33023313, g: 0.36793935, b: 0.38679242, a: 1}
-    TopColor: {r: 0, g: 0, b: 0, a: 0}
-    BottomColor: {r: 0.2985832, g: 0.33516207, b: 0.38111156, a: 1}
-    BlendHeight: 0.014999998
-    FogGradientHeight: 0.5
-    SunIntensity: 0.42793298
-    MoonIntensity: -0.007574843
-    SunFalloffIntensity: 9.4
-    SunControl: 1.0042158
-    MoonControl: 0
---- !u!114 &7875445154054207603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b47d9523e62ddd48b8ae2826026b4f3, type: 3}
-  m_Name: MoonUniStormSunShaftsFeature
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  settings:
-    isEnabled: 0
-    renderPassEvent: 500
-    resolution: 1
-    screenBlendMode: 0
-    sunTransform: {fileID: 0}
-    radialBlurIterations: 3
-    sunColor: {r: 0.31764707, g: 0.32156864, b: 0.32156864, a: 1}
-    sunThreshold: {r: 0.13333334, g: 0.13333334, b: 0.13333334, a: 1}
-    sunShaftBlurRadius: 3.32
-    sunShaftIntensity: 1
-    maxRadius: 0.3
-    useDepthTexture: 1

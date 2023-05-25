@@ -5,13 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/UniStorm Weather System/URP Support/Scene/URP Demo Scene.unity
-    guid: 73ead2f2d52079343abf63f9447b5afa
   - enabled: 0
     path: Assets/Scenes/MainScenes/Main Menu.unity
     guid: c989f4d632cfd3942aa7181ebb07bfa3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainScenes/Starting area.unity
     guid: 03e344b3fe253c54ba84e518bac71f27
   - enabled: 0
