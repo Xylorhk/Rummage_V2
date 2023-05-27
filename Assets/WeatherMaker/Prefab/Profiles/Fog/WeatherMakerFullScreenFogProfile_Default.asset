@@ -15,7 +15,7 @@ MonoBehaviour:
   FogMode: 2
   FogDensity: 0.01
   FogFactorMultiplier: 1
-  FogStartDepth: 25
+  FogStartDepth: 50
   FogEndDepth: 100000
   FogColor: {r: 0.9528302, g: 0.85729223, b: 0.6058562, a: 1}
   FogEmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -108,9 +108,9 @@ MonoBehaviour:
     m_NumAlphaKeys: 4
   FogMinShadow: 0.4
   MaxFogFactor: 0.35
-  FogNoiseScale: 0.007
-  FogNoiseAdder: -0.329
-  FogNoiseMultiplier: 3.65
+  FogNoiseScale: 0.001
+  FogNoiseAdder: -0.862
+  FogNoiseMultiplier: 0.4
   FogNoiseVelocity: {x: 5, y: 0, z: 0}
   FogNoiseVelocityRotation: {x: 45, y: 0, z: 0, w: 0}
   WindEffectsFogNoiseVelocity: 0
