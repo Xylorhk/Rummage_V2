@@ -22,7 +22,6 @@ Material:
   - _MK_OUTLINE_HULL_CLIP
   - _MK_PBS_MAP_0
   - _MK_RECEIVE_SHADOWS
-  - _MK_RIM_DEFAULT
   - _MK_SPECULAR_ISOTROPIC
   - _MK_WRAPPED_DIFFUSE
   m_InvalidKeywords:
@@ -275,16 +274,16 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RenderFace: 2
+    - _RenderFace: 0
     - _RenderPriority: 0
-    - _Rim: 1
+    - _Rim: 0
     - _RimSize: 5
     - _RimSmoothness: 0.5
     - _RimThresholdOffset: 0.25
     - _Roughness: 0.5
     - _Saturation: 1
     - _SketchMapScale: 1
-    - _Smoothness: 0.87
+    - _Smoothness: 0.92
     - _SmoothnessTextureChannel: 0
     - _Specular: 1
     - _SpecularHighlights: 1
