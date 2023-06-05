@@ -7,6 +7,9 @@ TagManager:
   - Fire
   - bomb
   - Platform
+  - SceneStreamer
+  - WorldMover
+  - ColliderStreamerManager
   layers:
   - Default
   - TransparentFX

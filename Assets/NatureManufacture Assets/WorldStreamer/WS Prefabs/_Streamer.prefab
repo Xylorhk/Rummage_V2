@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &125190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 428144}
+  - component: {fileID: 11458844}
+  m_Layer: 0
+  m_Name: _Streamer_Major
+  m_TagString: SceneStreamer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &428144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11458844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2f4fe1298944147a452832d168e9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  streamerActive: 1
+  sceneCollection: {fileID: 0}
+  splits: []
+  loadingRange: {x: 1, y: 0, z: 1}
+  useLoadingRangeMin: 0
+  loadingRangeMin: {x: 1, y: 0, z: 1}
+  deloadingRange: {x: 1, y: 0, z: 1}
+  positionCheckTime: 0.11111111
+  destroyTileDelay: 1
+  maxParallelSceneLoading: 1
+  sceneLoadWaitFrames: 1
+  terrainNeighbours: {fileID: 0}
+  looping: 0
+  player: {fileID: 0}
+  spawnedPlayer: 0
+  playerTag: Player
+  showLoadingScreen: 1
+  loadingStreamer: {fileID: 0}
+  initialized: 0
+  tilesToLoad: 2147483647
+  tilesLoaded: 0
+  worldMover: {fileID: 0}
+  currentMove: {x: 0, y: 0, z: 0}
+  loadedScenes: []
