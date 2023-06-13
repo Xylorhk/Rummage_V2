@@ -75,3 +75,4 @@ MonoBehaviour:
   - Dropped
   - Lifted
   - ItemPickedUp
+  - InventoryAddItem
