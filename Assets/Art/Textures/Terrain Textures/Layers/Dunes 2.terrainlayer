@@ -6,11 +6,11 @@ TerrainLayer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Dunes
+  m_Name: Dunes 2
   m_DiffuseTexture: {fileID: 2800000, guid: c992ffed55c33894abccb6e6521249df, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: 4b7e1bcf41932284f8bfc26551f2dc59, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 1a1e99c7f4bb0a4479e4e5c835fd6c98, type: 3}
   m_MaskMapTexture: {fileID: 0}
-  m_TileSize: {x: 12, y: 18}
+  m_TileSize: {x: 5, y: 10}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
   m_Metallic: 0
