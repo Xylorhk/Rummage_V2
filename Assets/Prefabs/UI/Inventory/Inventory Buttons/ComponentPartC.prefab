@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6268278872291702781}
   - component: {fileID: 6268278872291702780}
   m_Layer: 5
-  m_Name: ComponentPartB
+  m_Name: ComponentPartC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,8 +68,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8250ba99aa6d5ad4f837a7bea00ad3a5, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5652c3ffb9a08b445bc476c5476bc44f, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -437,13 +437,13 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: Another Testing Component
+        value: The Nother One
       - useVariable: 1
         name: Name
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: Component B
+        value: Component C
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -457,7 +457,7 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         typeName: UnityEngine.Sprite
-        value: {fileID: 21300000, guid: 8250ba99aa6d5ad4f837a7bea00ad3a5, type: 3}
+        value: {fileID: 21300000, guid: 5652c3ffb9a08b445bc476c5476bc44f, type: 3}
       materialVariables: []
       textureVariables: []
       arrayVariables: []
