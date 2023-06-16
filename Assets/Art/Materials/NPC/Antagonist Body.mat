@@ -2,17 +2,32 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Antagonist Body
   m_Shader: {fileID: 4800000, guid: 7633a2fd8a3bed44791c9e952ff86e5d, type: 3}
-  m_ShaderKeywords: _FRESNELHIGHLIGHTS_ON _MK_ALBEDO_MAP _MK_DETAIL_BLEND_MIX _MK_EMISSION
-    _MK_EMISSION_MAP _MK_ENVIRONMENT_REFLECTIONS_AMBIENT _MK_FRESNEL_HIGHLIGHTS _MK_LIGHT_CEL
-    _MK_NORMAL_MAP _MK_OUTLINE_HULL_CLIP _MK_PBS_MAP_0 _MK_RECEIVE_SHADOWS _MK_SPECULAR_ISOTROPIC
-    _MK_WRAPPED_DIFFUSE _RECEIVESHADOWS_ON _WRAPPEDLIGHTING_ON
+  m_ValidKeywords:
+  - _MK_ALBEDO_MAP
+  - _MK_ARTISTIC_ANIMATION_STUTTER
+  - _MK_DETAIL_BLEND_MIX
+  - _MK_EMISSION
+  - _MK_EMISSION_MAP
+  - _MK_ENVIRONMENT_REFLECTIONS_AMBIENT
+  - _MK_FRESNEL_HIGHLIGHTS
+  - _MK_LIGHT_CEL
+  - _MK_NORMAL_MAP
+  - _MK_OUTLINE_HULL_CLIP
+  - _MK_PBS_MAP_0
+  - _MK_RECEIVE_SHADOWS
+  - _MK_SPECULAR_ISOTROPIC
+  - _MK_WRAPPED_DIFFUSE
+  m_InvalidKeywords:
+  - _FRESNELHIGHLIGHTS_ON
+  - _RECEIVESHADOWS_ON
+  - _WRAPPEDLIGHTING_ON
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -180,8 +195,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AdvancedTab: 1
+    - _AlbedoMapIntensity: 1
     - _AlphaClip: 0
     - _AlphaClipping: 0
     - _AlphaCutoff: 1
@@ -191,7 +208,9 @@ Material:
     - _ArtisticProjection: 0
     - _Blend: 0
     - _BlendDst: 0
+    - _BlendDstAlpha: 0
     - _BlendSrc: 1
+    - _BlendSrcAlpha: 1
     - _Brightness: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -224,6 +243,7 @@ Material:
     - _GlossyReflections: 0
     - _GoochRampIntensity: 0.5
     - _HatchingMapScale: 1
+    - _IndirectFade: 1
     - _Initialized: 1
     - _InputTab: 1
     - _Iridescence: 0

@@ -80,7 +80,7 @@ MonoBehaviour:
       intValue: 0
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - SendData
   - AddScrap
@@ -88,5 +88,6 @@ MonoBehaviour:
   - Lifted
   - ItemPickedUp
   - InventoryAddItem
-  - DisableCanvas
   - Press
+  - PopulateInventory
+  - ClearArray
