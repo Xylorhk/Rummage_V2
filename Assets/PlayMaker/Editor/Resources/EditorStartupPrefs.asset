@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de5210ce93b60c74b910290c522cd727, type: 3}
-  m_Name: 
+  m_Name: EditorStartupPrefs
   m_EditorClassIdentifier: 
-  welcomeScreenVersion: '1.9.6 '
+  welcomeScreenVersion: 
   playmakerVersion: 
-  showWelcomeScreen: 0
+  showWelcomeScreen: 1
   showUpgradeGuide: 0
-  lastAutoUpdateSignature: 2021.3.20f1__C:/Users/aswal/Desktop/Rummage V2 Location/Rummage_V2/Assets__0.0.0.0
+  lastAutoUpdateSignature: 2021.2.0f1__C:/Projects/Playmaker_1.9.1/Projects/Unity2021.2/Playmaker.gen.unity/Assets__0.0.0.0
   useLegacyNetworking: 0

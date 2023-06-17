@@ -4,6 +4,7 @@
 
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
+using HutongGames.PlayMaker;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.Build;
@@ -19,6 +20,23 @@ namespace HutongGames.PlayMakerEditor
     [SuppressMessage("ReSharper", "UnusedMember.Global")]
     public class PlayMakerBuildCallbacks
     {
+
+#if UNITY_2019_3_OR_NEWER
+
+        // For fast play mode in editor
+
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        private static void InitInEditor()
+        {
+            PlayMakerGlobals.InitInEditor();
+            PlayMakerFSM.InitInEditor();
+            FsmEvent.InitInEditor();
+            FsmLog.InitInEditor();
+        }
+
+#endif
+
+
 #if UNITY_2018_3_OR_NEWER    
 
     public class PlayMakerPreProcessBuild : IPreprocessBuildWithReport
