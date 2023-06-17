@@ -62,6 +62,8 @@ Material:
     m_Floats:
     - _Float1: 1
     - _Opacity: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _Speed: 0.66
     - __dirty: 0
     m_Colors:

@@ -68,6 +68,8 @@ Material:
     - _Float1: 1.08
     - _MaskClipValue: 0.5
     - _Opcaity: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _Shading: 1
     - _Speed: 0.55
     - _Strength: 5
