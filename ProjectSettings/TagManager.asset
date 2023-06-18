@@ -10,6 +10,7 @@ TagManager:
   - SceneStreamer
   - WorldMover
   - ColliderStreamerManager
+  - Manager
   layers:
   - Default
   - TransparentFX

@@ -36,12 +36,6 @@ MonoBehaviour:
     quaternionVariables: []
     gameObjectVariables:
     - useVariable: 1
-      name: ItemInventory
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
-    - useVariable: 1
       name: PopupsUI
       tooltip: 
       showInInspector: 0
@@ -55,6 +49,12 @@ MonoBehaviour:
       value: {fileID: 0}
     - useVariable: 1
       name: Player
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: ItemInventory
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -80,7 +80,7 @@ MonoBehaviour:
       intValue: 0
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - SendData
   - AddScrap
@@ -91,3 +91,8 @@ MonoBehaviour:
   - Press
   - PopulateInventory
   - ClearArray
+  - Return
+  - DisableCanvas
+  - GetNext
+  - DropItem
+  - InventoryRemoveItem
