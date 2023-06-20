@@ -260,7 +260,7 @@ Material:
     - _LightTransmissionSmoothness: 0.5
     - _LightTransmissionThresholdOffset: 0.25
     - _Metallic: 0
-    - _NormalMapIntensity: 2
+    - _NormalMapIntensity: 1.5
     - _OcclusionMapIntensity: 1
     - _OcclusionStrength: 1
     - _OptionsTab: 1
@@ -283,7 +283,7 @@ Material:
     - _Roughness: 0.5
     - _Saturation: 0
     - _SketchMapScale: 1
-    - _Smoothness: 0.252
+    - _Smoothness: 0.886
     - _SmoothnessTextureChannel: 0
     - _Specular: 1
     - _SpecularHighlights: 1
