@@ -78,8 +78,8 @@ Material:
     - _EdgeFade: 0.145
     - _FlowSpeed: 3
     - _Fresnelexponent: 4
-    - _Glossiness: 1
-    - _Metallicness: 0.1
+    - _Glossiness: 0.826
+    - _Metallicness: 0
     - _NormalStrength: 0.735
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -102,6 +102,6 @@ Material:
     - Color_D0289068: {r: 0, g: 0.9394503, b: 1, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WaterColor: {r: 0, g: 0.29478288, b: 1, a: 1}
+    - _WaterColor: {r: 0.3526957, g: 0.5584349, b: 0.845, a: 1}
     - _WaterShallowColor: {r: 0, g: 0.7830725, b: 1, a: 1}
   m_BuildTextureStacks: []

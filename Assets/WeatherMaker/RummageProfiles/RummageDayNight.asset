@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d4dbdbf04c6ebf4ab9bbaaea3ca6638, type: 3}
-  m_Name: WeatherMakerDayNightCycleProfile_Default
+  m_Name: RummageDayNight
   m_EditorClassIdentifier: 
   Speed: 100
   NightSpeed: 150
@@ -115,9 +115,9 @@ MonoBehaviour:
   AmbientColorMode: 8
   DayAmbientColor:
     serializedVersion: 2
-    key0: {r: 0.9117647, g: 0.84703493, b: 0.6771194, a: 1}
-    key1: {r: 0.58644146, g: 0.764151, b: 0, a: 1}
-    key2: {r: 0.21960784, g: 0.007843138, b: 0, a: 0}
+    key0: {r: 0.8749021, g: 0.9056604, b: 0.90044713, a: 1}
+    key1: {r: 0.270744, g: 0.4487582, b: 0.696, a: 1}
+    key2: {r: 0.4943396, g: 0.67585874, b: 1, a: 0}
     key3: {r: 0.21960784, g: 0.007843138, b: 0, a: 0}
     key4: {r: 0.21960784, g: 0.007843138, b: 0, a: 0}
     key5: {r: 0.21960784, g: 0.007843138, b: 0, a: 0}
@@ -125,7 +125,7 @@ MonoBehaviour:
     key7: {r: 0.21960784, g: 0.007843138, b: 0, a: 0}
     ctime0: 0
     ctime1: 65535
-    ctime2: 0
+    ctime2: 65535
     ctime3: 0
     ctime4: 0
     ctime5: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  DayAmbientColorIntensity: 0
+  DayAmbientColorIntensity: 1.17
   DayAmbientColorSky:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -172,11 +172,11 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
-  DayAmbientColorSkyIntensity: 0
+  DayAmbientColorSkyIntensity: 1.26
   DayAmbientColorGround:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 0.9960785, g: 0.9607844, b: 0.80392164, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -184,7 +184,7 @@ MonoBehaviour:
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 0
-    ctime1: 65535
+    ctime1: 65150
     ctime2: 0
     ctime3: 0
     ctime4: 0
@@ -202,7 +202,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  DayAmbientColorGroundIntensity: 0
+  DayAmbientColorGroundIntensity: 1.54
   DayAmbientColorEquator:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -262,7 +262,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  DawnDuskAmbientColorIntensity: 0
+  DawnDuskAmbientColorIntensity: 0.2
   DawnDuskAmbientColorSky:
     serializedVersion: 2
     key0: {r: 0.9852941, g: 0.47106257, b: 0.3839749, a: 1}
@@ -382,7 +382,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  NightAmbientColorIntensity: 0
+  NightAmbientColorIntensity: 0.2
   NightAmbientColorSky:
     serializedVersion: 2
     key0: {r: 0.5808823, g: 0.5837729, b: 1, a: 1}
@@ -412,7 +412,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  NightAmbientColorSkyIntensity: 0
+  NightAmbientColorSkyIntensity: 0.2
   NightAmbientColorGround:
     serializedVersion: 2
     key0: {r: 0.5808823, g: 0.5837729, b: 1, a: 1}
@@ -442,7 +442,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  NightAmbientColorGroundIntensity: 0
+  NightAmbientColorGroundIntensity: 0.2
   NightAmbientColorEquator:
     serializedVersion: 2
     key0: {r: 0.5808823, g: 0.5837729, b: 1, a: 1}
