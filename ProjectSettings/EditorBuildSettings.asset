@@ -5,1184 +5,161 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/MainScenes/Main Menu.unity
-    guid: c989f4d632cfd3942aa7181ebb07bfa3
-  - enabled: 0
-    path: Assets/Scenes/MainScenes/Starting area.unity
-    guid: 03e344b3fe253c54ba84e518bac71f27
-  - enabled: 0
-    path: Assets/Scenes/MainScenes/Tutorial Pit.unity
-    guid: 2da3dff6345b51e4db5de8bf69df65bc
-  - enabled: 0
-    path: Assets/Scenes/MainScenes/Railyard Hub.unity
-    guid: 165d35c9eeadcb745a3ca7a155ae578d
-  - enabled: 0
-    path: Assets/Scenes/MainScenes/Industrial Level.unity
-    guid: 1d35890255191b64d92171082289c191
-  - enabled: 0
-    path: Assets/Scenes/MainScenes/Overworld.unity
-    guid: 6e60165b26bfdd1429b281c2227afd26
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Tutorial Work and Game Scenes/Game
-      Mobile Streamer Scene.unity
-    guid: 458c73388a8e18b4fb71831b32edb357
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Huge Split Scenes/ColliderScenes/Colider
-      Scene.unity
-    guid: 027fad33c7e5bd94ab8156c0cd64109d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x4_z0.unity
-    guid: 381bdde223c9ec141a29a382afd73f2f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x6_z1.unity
-    guid: 5ce3a1e23a8776e47899d161625eaa4d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x6_z3.unity
-    guid: 77e60a130b500e645bb9e5412b1f940d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x3_z0.unity
-    guid: 751d9fef2a3f8c6439341cfe28d22713
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x6_z6.unity
-    guid: 8e44788067fd52042baf22055db43845
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x5_z6.unity
-    guid: 36cd0ff25f12a3847a44640383b3193f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x4_z5.unity
-    guid: 795bb8438d12de94bb03b8a945a0aa46
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x3_z2.unity
-    guid: 5f3f3238dff6d1d42a9d278ba5d0f779
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x7_z3.unity
-    guid: ca1d7b47856c1594bb4004e2e6e63ec2
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x7_z6.unity
-    guid: ee09619262796254db38fccd68268bc2
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x4_z4.unity
-    guid: 505d4a11a88a9d54ba247d85d7aada51
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x0_z2.unity
-    guid: beb704620fdb7b04093e924310578598
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x0_z1.unity
-    guid: 228401579173b2e47aa232847356b8cd
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x7_z7.unity
-    guid: c407964a68064ee4ca9b58893207d2c3
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x2_z7.unity
-    guid: 508051e51c7289b4d9447c2bd2ecf102
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x0_z6.unity
-    guid: 07906e1d7b385014db7904232fd5f6b4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x7_z2.unity
-    guid: 85d3af823699c2243b21d8d5c14defae
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x5_z0.unity
-    guid: 0934279db252ec14dab4d1f0197a17fe
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x5_z4.unity
-    guid: fc7ba133fdafce449a237812c9eaf4d3
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x5_z5.unity
-    guid: c1593a80443bc4e4291019126f25a59f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x3_z3.unity
-    guid: e07be66c4865e7949b37eeffc58f6dcb
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x5_z7.unity
-    guid: d4fc6bc51b2c8754584fea64733f133b
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x3_z5.unity
-    guid: 4932e16f70ea5de4faebb175eef7f188
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x5_z3.unity
-    guid: aecc722113483d4468ab29c43fd4e54c
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x3_z1.unity
-    guid: 4a6fb3bba6fcf9f4895b95203f080fab
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x1_z1.unity
-    guid: 7592dcdd953c76e4997ae56e0745486e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x6_z5.unity
-    guid: 8a03a6aea00efe74899fa6718fd4796f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x2_z0.unity
-    guid: 55ebb124ee53dbb4783de69b2f949695
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x0_z5.unity
-    guid: fad90e9f952ec1b4e9db036b65f1fe37
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x2_z6.unity
-    guid: 37f9cc8f5def83e4a96b5ed4e875514b
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x7_z5.unity
-    guid: 7352eda2abdf183429c2c751a7a8d265
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x2_z4.unity
-    guid: 0f9d2f66d8439f5488d4b21e7923b922
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x5_z1.unity
-    guid: 4c3c9698a2e781847a6507a92079cce0
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x2_z2.unity
-    guid: 0da760fada18aaf459cb57b8d37688cc
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x2_z3.unity
-    guid: 79ca313c15f2a9a4d9293cf488a0c7bb
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x0_z3.unity
-    guid: e53ea4b12610e0d4fbd7f3d22b07de5d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x6_z0.unity
-    guid: 7ced2acb715d30f40ae3a13bbc1a6a8d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x4_z1.unity
-    guid: 7da1df7232ef8844caaeecc63b35d6e4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x0_z0.unity
-    guid: 0884b0a73fb92c04c8203777cdf6e498
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x6_z4.unity
-    guid: 4141bb787318f44499af905976893d93
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x1_z2.unity
-    guid: d6f8b78a7f198bf499d276b6f7ed99bd
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x5_z2.unity
-    guid: 3b191880bb6e71e47826ade1735720ba
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x0_z7.unity
-    guid: e600f27bde37b8c43ae331a0505ceffb
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x4_z2.unity
-    guid: 9d115ad185728c14396a70c6391b7efb
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x3_z7.unity
-    guid: f30484d3e3eabd94da212aa9531a977d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x1_z3.unity
-    guid: c7a043a94c03e584989c7dde937b7bb8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x7_z0.unity
-    guid: 5b6ba1adf6401f849a6a338efb4d944a
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x1_z4.unity
-    guid: c0bc881cf9c87994294f656214116570
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x0_z4.unity
-    guid: 3bda5af8b36d0424eb440a9b2150e8fd
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x2_z1.unity
-    guid: bf3e354fd4994164cb2bca15f4d15c40
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x6_z7.unity
-    guid: c2662332acc97cb43971aec5f6a3e66b
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x7_z4.unity
-    guid: ab88ccf6d5605bb418ceb523ccc3fdf4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x4_z7.unity
-    guid: bff1f201533fadc49a10625a8f45bbcb
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x1_z0.unity
-    guid: 511d6ffaa6a038247b6a5de8f2cce9c7
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x4_z3.unity
-    guid: 2b513be5402432944b5f7324a1a1058c
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x1_z5.unity
-    guid: d37f8fe1866abf948a5372d4d52372d2
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x4_z6.unity
-    guid: e937434880a4ef745b353a6dd0ca615e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x3_z4.unity
-    guid: 73919814aad09cb488519604ed3c5813
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x3_z6.unity
-    guid: e508fea9b98a4774f8d42a97ad4dfd90
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x1_z7.unity
-    guid: d5e5cb3296919b443935129a0fb3df23
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x1_z6.unity
-    guid: dea8ff6699a290e45beb44dcf9eb73b9
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x6_z2.unity
-    guid: 77dcf5d06c102e1488e5c7c8c3767a13
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x2_z5.unity
-    guid: e6306eb54cccfe0449075f5a18fa79b8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain HQ/Scene Terrain HQ_x7_z1.unity
-    guid: 7dc394e6b09ae5e44a352dcf4885e484
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x1_z0.unity
-    guid: 94495fc4de8ed8549bc65069f07fe10e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x3_z7.unity
-    guid: dc82ccc48d1695d40b9f80ff7b868852
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x7_z0.unity
-    guid: a6329f375f6eaa24fa06237a94034097
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x4_z4.unity
-    guid: 3f3974a11054e1346b5bf7b5bdc4986e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x2_z4.unity
-    guid: 30aa74557a8e603468df86c3193750cd
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x2_z2.unity
-    guid: e7c26cf30935fe848b4e78a67816750e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x2_z6.unity
-    guid: b05f0c95626ba904b826bfdb04cbb127
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x7_z7.unity
-    guid: 7b8b2fef79c092042aeaa9705c9d6e35
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x4_z0.unity
-    guid: f0fccdcead096b047872629a6d292fe0
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x4_z5.unity
-    guid: b81f0848450c8554082b1ed1cd8dd8bd
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x7_z3.unity
-    guid: 4f1b11bb20bb71c49a68f39458e3d698
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x5_z1.unity
-    guid: 6d2c90c7e5f415447bb6a7148b61823c
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x0_z4.unity
-    guid: 5b70b5febbd6fea40a7fcd60b62547e4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x5_z3.unity
-    guid: 89125702f7d07c547a1f9ad56833723d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x7_z4.unity
-    guid: f908d15145027f142af050f5897d03fa
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x1_z6.unity
-    guid: adc48fcadd7f9174d888cfcc64eef52e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x6_z1.unity
-    guid: ea91b77d69cf8714c85fff57887b7ba2
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x5_z2.unity
-    guid: 2606071a8c7d0ad4397c3505e1695b1d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x4_z1.unity
-    guid: ed431ed05893e7349954e8d0849acd54
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x3_z0.unity
-    guid: 89553efb22f9e91419bd22aabbcfa2f6
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x5_z7.unity
-    guid: a60790a492ccbf840b7add523fbdb021
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x4_z3.unity
-    guid: 838cb799f41ac9942a181347ca9b0ae6
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x4_z2.unity
-    guid: 03f40402e60d7a54b9bcca04c06f648f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x3_z6.unity
-    guid: ee33c2ccba68fc446b3c1444ade33179
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x6_z3.unity
-    guid: 88290d493d414084e8a8874ef87f9e20
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x0_z0.unity
-    guid: 566fd4807ce1b314394945c6bfd41d29
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x4_z7.unity
-    guid: 9c52c34e9b52a5c48aa8e38a3643974b
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x2_z5.unity
-    guid: cadac2c671bbd9444a8662dc6ffb130b
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x1_z1.unity
-    guid: defd9a0031519834d87e02a06eb5c942
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x2_z3.unity
-    guid: 130a80f30add1614b9b3b133ad274b1e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x6_z5.unity
-    guid: fdb4de954663a144798a7409b6b0b4d7
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x1_z7.unity
-    guid: f144ef767de3c0646be4ba688845d956
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x0_z5.unity
-    guid: 409d7bc2de22b8644b745f56cc88b087
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x2_z7.unity
-    guid: fca653a43b2947e41ac08a8fba0be621
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x1_z4.unity
-    guid: f4a450e5c826798449ef3bac5c0163ef
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x0_z3.unity
-    guid: 6ba1372f585579e4c874bfc10469521d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x3_z4.unity
-    guid: b3ab71de5168af645bb39344cefbad75
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x1_z5.unity
-    guid: 0a6395655b94bc448908c68824de520f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x6_z2.unity
-    guid: ec6c1bad592752f4a9ebd71db0d19eb2
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x3_z3.unity
-    guid: 4d11c7cf9ea52724da9b80ea2ae68ad9
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x6_z7.unity
-    guid: 4ac0f206122475a46a78e8701d15772d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x5_z0.unity
-    guid: ef48d3b5f355c194f8207d041d5f1e2f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x0_z1.unity
-    guid: 294385964fc823848ba5158184e846f8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x0_z7.unity
-    guid: b8d8290bae1e7c04695a2c0aea459c81
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x7_z5.unity
-    guid: 2890976c57f4c614cb5af5df12926887
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x6_z4.unity
-    guid: a097aa60175e78c4ca6408e14fec2801
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x4_z6.unity
-    guid: c9c4d6dd6bc98a54698af0896e8aa2f1
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x2_z0.unity
-    guid: 1de18b084a296554f8cdd094e9c1b23d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x1_z2.unity
-    guid: e6ce3322fd41f3d4ea1a88fc9d8f224d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x0_z2.unity
-    guid: eb2b2c41b9f8ef44cb370d873bf0fb0e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x3_z1.unity
-    guid: 407f6f169f9a43a4fa3314494f31f1b5
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x2_z1.unity
-    guid: 584e492734501bf479e91cda1cc69b3f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x1_z3.unity
-    guid: cf4ab95dcff3baf4b9ea5bf2e13d3e7d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x5_z4.unity
-    guid: 54e6de6a010ad694b9143de3a39e184d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x6_z0.unity
-    guid: d9fc3fd29448d094c80f19dcdf7b3187
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x7_z6.unity
-    guid: a606a32ef35c9024b90c54b23f66b9cb
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x7_z2.unity
-    guid: d110312f2b2fd854fa3acacf9086cd3f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x0_z6.unity
-    guid: 23215a7e14dd6ce45accdac1fcaba714
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x5_z6.unity
-    guid: 372241e911fbcb747a5af1e07b8ecf92
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x5_z5.unity
-    guid: b6567378bdc00ef4e8ab2697bae75dfb
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x3_z2.unity
-    guid: 5bdf417027f565045b1bed828417d0f6
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x3_z5.unity
-    guid: 87df85a6e07cea44d8b03a1994949246
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x6_z6.unity
-    guid: cf98dc982839cdc4692c1b5a0f65104e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Terrain LP/Scene Terrain LP_x7_z1.unity
-    guid: fd4cd7e6efa9c314bbe7be6bebd2223e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x3_z5.unity
-    guid: b4ef34656f4a9604189631fea2d3996e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x5_z4.unity
-    guid: 28830623d89f93943bbe29b4d5813c82
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x1_z4.unity
-    guid: 4e6106c5736faa7408d1bf18eea4533d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x6_z4.unity
-    guid: fc167e10f53013142bbb6cd4e9680102
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x4_z5.unity
-    guid: 1a34c6a68c710f84a8675a0e1e58eae3
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x4_z3.unity
-    guid: 73ae2d3adddb6a945b69d184d318c433
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x3_z3.unity
-    guid: 9be976d70d32c5545998ea4f56b1859d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x0_z4.unity
-    guid: c35253c1bd37a4942bec5bb39976e999
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x7_z3.unity
-    guid: a3698a06872d78041aef4433cc26e544
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x5_z3.unity
-    guid: accfaf0bbbe27bd4782c62f524b24200
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x1_z3.unity
-    guid: 4eae4a0b321b5454b80474267d7f42b4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x3_z4.unity
-    guid: 46bdfe96f42ba5549ac343972e3e88ce
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x3_z2.unity
-    guid: 15cdecfe124bb1a45b250b038d76f113
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x4_z2.unity
-    guid: 6d567fe37ad2ebf4eba3812ae2e7ac7e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x4_z4.unity
-    guid: f0bf78a509133504a9352798b1eb5e90
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x5_z2.unity
-    guid: d4504f8f36f770e4691abeb33498181f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Huge/Scene Huge_x2_z4.unity
-    guid: 22fd50b24c4b0cc4a82e93fb216a82c8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Medium/Scene Medium_x15_z10.unity
-    guid: 204dd72f449ef0844917094c874a2cd1
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Medium/Scene Medium_x16_z9.unity
-    guid: a1b621eaa0bdba84c953d66bdcdb23da
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Medium/Scene Medium_x16_z7.unity
-    guid: ed2c9de5a51153b468e8c1584a4817bf
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Medium/Scene Medium_x17_z7.unity
-    guid: 9bc5b13b6a0565d41a6842fe3624e746
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Medium/Scene Medium_x17_z8.unity
-    guid: 85cbd8c7b32c820419d3708ca473acec
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Medium/Scene Medium_x15_z7.unity
-    guid: bb674fabbe0784a429f4cf72e2a8d08e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Medium/Scene Medium_x16_z8.unity
-    guid: 056b9cb00f60c1e4dbb72b94a6904d6d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Medium/Scene Medium_x15_z9.unity
-    guid: 9d991ba6dddca1341973d633a41cda32
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Medium/Scene Medium_x15_z8.unity
-    guid: f26f6b6d2634b874f9758d1ba9b6f01f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Micro/Scene Micro_x32_z15.unity
-    guid: dc6c8b41c3c22644991867a5c46d2357
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Micro/Scene Micro_x33_z17.unity
-    guid: ea2a456d0f4f9ae4198e41af6637201f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Micro/Scene Micro_x32_z18.unity
-    guid: d57f514315f67eb41a9de86746c65b85
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Micro/Scene Micro_x32_z17.unity
-    guid: 9a8dc6230862e2e4c822a5ae2489c2d7
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Micro/Scene Micro_x33_z15.unity
-    guid: 38f77ddd833b2ec4ea47e493761e2fe1
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesHuge_Work_Scene/Scene
-      Micro/Scene Micro_x33_z16.unity
-    guid: 1497555f816e378489484ad506fac5d4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x2_z2.unity
-    guid: 147a83fc7f6e1db4399b181ce8e1b119
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x6_z3.unity
-    guid: 3a6165c60e02d764daeb8897fd1fb341
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x5_z7.unity
-    guid: df87aee6e93feaf48b6305deb9a23876
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x4_z2.unity
-    guid: 69f72e3f2552a2a4091dba9bdfbeb0cf
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x0_z5.unity
-    guid: 9cbd9b1a471165846a49c9775bed92d5
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x5_z3.unity
-    guid: cb0b2b9fcba2cde4794c080149c7f503
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x7_z6.unity
-    guid: a59728a89bfee7943a8541aa261e6ee5
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x4_z0.unity
-    guid: fc9bfcd5bc81e464aab84f62bd48fa74
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x3_z3.unity
-    guid: 4d40efb8d042a8443a71b7e63664b976
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x3_z6.unity
-    guid: 35965d9028a403d42b644741558ecfe4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x0_z4.unity
-    guid: c75e4ba0d4d0c6641871a18b3a5b6636
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x0_z3.unity
-    guid: e9d6b9fa6d8296649a4df2b2e389a2bd
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x5_z4.unity
-    guid: a7dfef4d1dca05149b7c9bb901004ad8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x4_z6.unity
-    guid: c0fe9023e970a4c47a762bc5edf6080e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x0_z1.unity
-    guid: 5380b82b07ef07a4c9d4a2f62ab8784d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x2_z5.unity
-    guid: 51321e9ea0f619944b0af5c24c23d400
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x6_z2.unity
-    guid: 27d659235791cfd439ec2df3ee056a0f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x5_z6.unity
-    guid: 1e2a70fa226850145b94dc432ec59afa
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x3_z2.unity
-    guid: afd0fc52776f2c541b7e2b8f6cab9972
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x0_z7.unity
-    guid: 6cf61bad77faaa342ad4e37945d63e1d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x1_z7.unity
-    guid: b144afcf75e68214db1ee647b394ab14
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x1_z0.unity
-    guid: 8db143a98650a684aae02b38fed57d8a
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x1_z3.unity
-    guid: 9a8fa6fac1bc4dc41b219e2cf8724157
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x7_z4.unity
-    guid: cb97a2506fb12bc44b02eed222ef15ee
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x4_z3.unity
-    guid: e196021420ad8314387e5117998bfe7b
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x2_z1.unity
-    guid: e343486c97f2a2a489b55b0af34aa5eb
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x5_z0.unity
-    guid: 0eeb7bb31fd1e7f48b46fcaba9551563
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x2_z6.unity
-    guid: 9b013dd06aac62846b6c6b09e45f8a65
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x3_z7.unity
-    guid: 6050d8a76b1bede44aad43c80d2125f6
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x0_z0.unity
-    guid: 27420476557fa884489d4a8cc3109fa8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x2_z4.unity
-    guid: 9786f8594baa03b4a8fdb851d9e86d4e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x4_z7.unity
-    guid: 59473db1452ea594687e6508340c0647
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x7_z3.unity
-    guid: ca82e0dcc1bed6e439e9c85e1f7f7206
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x6_z5.unity
-    guid: a9018ceb126578d468ac369cf9efac5e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x1_z2.unity
-    guid: a7d7e07186fbb244795a07dcdfa16005
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x7_z0.unity
-    guid: 0aa43040472e8bb4688c0ec58ebd1f12
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x6_z1.unity
-    guid: 1deb55c29758ae7468fdfdc54f3226cc
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x5_z2.unity
-    guid: c80d2d568e5272f4780f83705f2c8a55
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x6_z6.unity
-    guid: 8da091c2e6c24cb48b92f80d11c5b415
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x1_z5.unity
-    guid: dde4930d1dd446448a05ca3f272c23d6
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x6_z7.unity
-    guid: 1f2bf2463e218a5438c0c785336e304e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x5_z1.unity
-    guid: 131d5410d88862546a77f8e86466766a
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x1_z4.unity
-    guid: 44a68b717279e26439e5ea689923884d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x3_z5.unity
-    guid: 9d786734b42d4a344a196f25a7efe1b1
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x6_z0.unity
-    guid: 44ed2ef35a23c3d4ca4004b28050b039
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x2_z7.unity
-    guid: 654647016ff45b447834bad30eafb282
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x4_z4.unity
-    guid: 7d8c2feb561b99f41a72e3fa2e54af7f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x7_z2.unity
-    guid: 08b98bd18bee9cb429e3b62e93ba7709
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x0_z6.unity
-    guid: a930a220479ebe047a88b1a12802bf7b
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x5_z5.unity
-    guid: 971dd08cd849dba45838e04c87eb682e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x2_z0.unity
-    guid: 2530e5fb90f51ef45b439ac47ecdcaa4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x3_z1.unity
-    guid: df12b15675ba3b0498dcf39f39637ac9
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x4_z5.unity
-    guid: 872bfe76afdd4fe4a9f7af3977584887
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x1_z6.unity
-    guid: b01e3384af727e74abdb66aac1fbe160
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x4_z1.unity
-    guid: b4413efafef885740b52e7744a87ba28
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x3_z0.unity
-    guid: 7ced46849e37aca4ea61217799351fec
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x2_z3.unity
-    guid: edd9da3d30da34b4297c88b2ba45ad28
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x1_z1.unity
-    guid: 3dd1683e1d241054db34e2565998af68
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x3_z4.unity
-    guid: 6051abe254421934488b88d7e4bc2b8a
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x6_z4.unity
-    guid: 82da5c73f1528734087cc62ca30427e8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x7_z5.unity
-    guid: 059e4e4f56db467498b5cdd6eca885fd
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x7_z7.unity
-    guid: eb01e29cfa609934187dadd62f772bc0
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x7_z1.unity
-    guid: cddf938284107754b9709803a8cc8b44
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile HQ/Scene Terrain Mobile HQ_x0_z2.unity
-    guid: 9ffbe9695797b124b8689bea5254ebae
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x5_z2.unity
-    guid: 7349858c5e0c8224c97a7aaa9ceb9d78
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x1_z5.unity
-    guid: 192bf90d5f77dcd4d8ae54347088b705
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x2_z2.unity
-    guid: 85baeb6a4fcab6b499b93ce89f0e2438
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x6_z5.unity
-    guid: 8eb4f50c9d04e734297b3149abfe7ad4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x4_z0.unity
-    guid: af82ba97b59a75849b21426044c214be
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x1_z3.unity
-    guid: 387055bc996a97b46a72a19224478860
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x6_z4.unity
-    guid: e263166ae5b466244991a74b86bfd90b
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x1_z7.unity
-    guid: 4f591ac61036cdf40baeebe8544eb3fe
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x6_z3.unity
-    guid: dd765c2725b9e554094f64a907fd1a3a
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x0_z1.unity
-    guid: d6e90c515213b1348b333ffbf8b75f3f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x3_z7.unity
-    guid: 081d0d252d40b074991faba218d087b1
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x7_z3.unity
-    guid: c9bc7b5e6b9616f4ab92e050c1cb20a8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x5_z7.unity
-    guid: 25f99ae233de3914f9f22ab3ef82b352
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x7_z4.unity
-    guid: 4446c76223fc51f4a86c0aafa0c38f2c
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x5_z0.unity
-    guid: 0daee853e18afee46a714b8b5e79dbde
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x3_z5.unity
-    guid: 7a37460cfe06d2748a0ad254ccc1f04a
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x1_z4.unity
-    guid: b4de24f8c6d8b3e4da4797c4ab2c2984
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x1_z2.unity
-    guid: b26eeed74c2916a4a85698a455fa186d
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x4_z5.unity
-    guid: e1f46ae8330726549aa19a962ff5aad0
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x7_z5.unity
-    guid: 934d2045c6d5dcd4994259ddc604cea9
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x3_z4.unity
-    guid: f45ae33746d000e458ef59a396ce6910
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x3_z6.unity
-    guid: 1254e4dd98b4e0540bbd51929016778f
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x4_z3.unity
-    guid: 28bff2f87efd75d4c9cb90f5ae2bb98a
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x3_z2.unity
-    guid: 098340a3f2f4d1f41bb2708f9563936e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x7_z1.unity
-    guid: bc4049ae0deaab942bf1e6524434a778
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x7_z0.unity
-    guid: 210651bc3d266904dae69233e2220f35
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x2_z7.unity
-    guid: d41025ba7dfca564c8850dee1506cd8c
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x0_z3.unity
-    guid: d1e3f3a9c2a0bc64e8ba0a5703be4f28
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x0_z0.unity
-    guid: 735898c082fdd7e408faad4947c60197
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x7_z2.unity
-    guid: 6ee1efa5ea1f84a4a83a15caee617fa9
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x6_z1.unity
-    guid: 4658866f08fedfa44b9bb455d3507d68
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x7_z6.unity
-    guid: 0566563cf8ffdec4b84a4b983a66fce0
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x2_z1.unity
-    guid: a9beb699c49868a41986600c344349c8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x2_z5.unity
-    guid: aba22e58d7a6ec145b9a1611d3525919
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x6_z2.unity
-    guid: 45568f74a91065c4dac11a2d846d8a98
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x1_z0.unity
-    guid: 96cbb70dae569094c9382b999d4de6a7
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x1_z1.unity
-    guid: 0cc64d9119f72ac47ac17cc3e04828e4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x0_z7.unity
-    guid: f93d2fa580c82f44393a75c724f125c8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x3_z0.unity
-    guid: 4b277b404e7ba4e4bb2d7a1a1fdabab8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x7_z7.unity
-    guid: a5ccbf94225e1b04c86574264363b8fe
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x0_z2.unity
-    guid: 60a501bfddc8afd49a0918350effbe3a
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x6_z6.unity
-    guid: 2930e96297cd7134f8aaf88e64af4114
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x4_z2.unity
-    guid: e48558ab75ebc554eab548d136a269e5
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x3_z3.unity
-    guid: ae4023fd1d3eac449a0beffb0c56e9d8
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x5_z3.unity
-    guid: da819c9c527f6e34da9217f47c9e7969
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x0_z4.unity
-    guid: 4437ac452237e654e88f2c32fd66c598
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x0_z5.unity
-    guid: b8b02adbad634804db14b64ef95728da
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x6_z0.unity
-    guid: d2bdea588bde19f4f986e914bc3d1b7e
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x4_z7.unity
-    guid: addac677cb33c134585958de2740028b
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x1_z6.unity
-    guid: 304eb2382c37eb946bcf687d047ba4bc
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x2_z6.unity
-    guid: 8196748b06eeb564d9412727d568ec30
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x3_z1.unity
-    guid: 0e2bff313932cd24ab46b4ca2cf9d992
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x5_z5.unity
-    guid: 16f0707fede9c1246b115eb5f0c81514
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x2_z0.unity
-    guid: aaadd1432a1edc94a9727627c08d6639
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x5_z6.unity
-    guid: 366c1cce751526e4082d65be4a102a19
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x5_z1.unity
-    guid: 2ffad88b5fe07b94d88ee53a1fce5944
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x6_z7.unity
-    guid: 6a60f47de7e93944aaf78f118e996066
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x5_z4.unity
-    guid: 73c02cc115424004abecde08ee4ab8ce
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x4_z1.unity
-    guid: e0fff6c98a3bc1c4e95455e7c02bbccf
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x4_z4.unity
-    guid: 6d45fc5029c142d4985a5a9e07a06f28
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x2_z3.unity
-    guid: da2c444bf1135024298bf0d91abd8ae4
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x4_z6.unity
-    guid: 32392bab2351fc54785c70d5ba1dc883
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x0_z6.unity
-    guid: c70d64b8ba2a42842badac907f364934
-  - enabled: 1
-    path: Assets/NatureManufacture Assets/WorldStreamer/Mobile Split Scenes/Scene
-      Terrain Mobile LP/Scene Terrain Mobile LP_x2_z4.unity
-    guid: 286b88ad64acf724ca9854a9bdf25bb9
+  - enabled: 1
+    path: Assets/Scenes/MainScenes/StreamingScene.unity
+    guid: c4e1ca8d90ebabe429c21fc9e7f07fb2
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x1_z1.unity
+    guid: 3902dfd928b050b4bbf2b767191178fe
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-3_z-3.unity
+    guid: 11d4ebd2d1d5a544e9c894c1c2434a8d
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x0_z0.unity
+    guid: feb38ecc222146d4194e4b4dfd17f6ca
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x0_z-1.unity
+    guid: 3158db2c316d91c44b15000a182b5d62
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-2_z-2.unity
+    guid: 5e4387aa5ee790b48b243420375699e6
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-3_z-2.unity
+    guid: c1bfdf4a20a194f4ea15cfea09fdf2ff
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-1_z-2.unity
+    guid: 4f42aae68eee65e42bc848030384041a
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-2_z0.unity
+    guid: 7d490f4362296f64e9c6327b0ec2eeb7
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x2_z0.unity
+    guid: f29f744bcf09fa84593446c06ec72c02
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-2_z-3.unity
+    guid: adbc6d8182da7f047ac886c28bdc88e5
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-3_z-1.unity
+    guid: 3a5f65cd63b88404abb5658cdf3bf200
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x1_z0.unity
+    guid: 64dd7bead68e04549b022cc689b98bb7
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-1_z-3.unity
+    guid: baac3b00b6de0644db701b777aca00da
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-1_z-1.unity
+    guid: 5f9337b25b9571e4e9edbbc2f7e0be66
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-1_z0.unity
+    guid: 95b757fecd556fd419c5cde6076eec7c
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x0_z-2.unity
+    guid: 2fd159ea78f8b01489e442ebe38e08f5
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x-2_z-1.unity
+    guid: e657eec15ed31694f83e5ac6d645d2f6
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x2_z1.unity
+    guid: cfd94137c1dca2e4d8787c432cf2b533
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_0/Scene prefix_0_x0_z1.unity
+    guid: 87bda52af600e714aaf37a0b24746270
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x2_z0.unity
+    guid: 149ebefaf8405f248ab487b0d7c29a11
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x1_z1.unity
+    guid: db07d757112b2924ebf3cb3e08108d51
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-2_z-1.unity
+    guid: 9189797853d782a40818bd1a1cf1ea95
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-3_z-3.unity
+    guid: f24c37248ce5a9c448997b0faa5b9f65
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-2_z-2.unity
+    guid: 2321f84cb4e74a84c800d978b425bafd
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-2_z-3.unity
+    guid: be137fdc9fe907d4eaf3f56df5c8c9a3
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x0_z1.unity
+    guid: 3f8e8c2bf94a4a5499eb50d127af18c8
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-1_z-1.unity
+    guid: 628750a25dc06714ab4dd3c4d59fa7c7
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-1_z-3.unity
+    guid: 794f50a81d79d684c8329336a1abfa54
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x0_z0.unity
+    guid: 688b900444f353b43ae1c1e8819594b8
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x1_z0.unity
+    guid: 08622841447b6684594629f98a8e5477
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-1_z-2.unity
+    guid: c5202473ec143cf4baea4e98da26e48c
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x0_z-2.unity
+    guid: 6f655f987463baf458b455b33c76a8c9
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-3_z-1.unity
+    guid: 4b1c4a32d57f7fb4db9dc21363c8ed76
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-2_z0.unity
+    guid: b31e8c993775f8f48bdbdc25905d7092
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x2_z1.unity
+    guid: 9ce14e6d8fc7b3d42a1b4bf91460a043
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-3_z-2.unity
+    guid: 849ba7f5535fad94ba7e39084a6c0986
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x-1_z0.unity
+    guid: 6a23b44005e9d2545be6b8996c029b65
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/WorldStreamer/SplitScenesGameScene/Scene
+      prefix_1/Scene prefix_1_x0_z-1.unity
+    guid: 25cbb12491daede46a4be5b5fcbe283f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: e4b7714e677a3184c88cf4f6fb95698c,
       type: 2}
