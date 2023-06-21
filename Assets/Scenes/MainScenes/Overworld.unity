@@ -630,7 +630,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2272,7 +2272,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2302,6 +2302,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 411378451}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &425344681
+GameObject:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 425344683}
+  - component: {fileID: 425344682}
+  m_Layer: 0
+  m_Name: _SceneSplitterSettingsNew
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &425344682
+MonoBehaviour:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425344681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2840b14e73d814b8c52e08a34d2936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenesPath: NatureManufacture Assets/WorldStreamer/SplitScenesOverworld
+  sceneCollectionManagers: []
+--- !u!4 &425344683
+Transform:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425344681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &485504294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2944,7 +2990,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5100,7 +5146,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5373,6 +5419,98 @@ Transform:
   - {fileID: 1455247117}
   m_Father: {fileID: 0}
   m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1003432025
+GameObject:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1003432027}
+  - component: {fileID: 1003432026}
+  m_Layer: 0
+  m_Name: _TerrainManagerSettings
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1003432026
+MonoBehaviour:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003432025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 218f3f533e161f145b130e68c2d6aac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splitSize: 2
+  terrainsDataPath: /NatureManufacture Assets/WorldStreamer/TerrainsData/
+  addTerrainCulling: 1
+  trainglesTreesMax: 65000
+  basemapResolution: 512
+  useTerrainNormal: 1
+  terrainNormalDetails: 4
+  terrainNormalStrength: 1
+  useTextureNormal: 1
+  useSmoothness: 1
+  terrainsCount: 16
+  terrainLod: 3
+  useBaseMap: 1
+  addVerticesDown: 1
+  verticesDownDistance: 5
+  yOffset: -0.4
+  terrainPrefixName: LOD1_
+  ambientLightColor: {r: 1, g: 1, b: 1, a: 1}
+  terrainPath: /NatureManufacture Assets/WorldStreamer/TerrainMeshes/
+  terrainTrees: []
+  colorSpaceLast: 1
+  showBasicTerrainSettings: 0
+  groupingID: 0
+  allowAutoConnect: 1
+  drawHeightmap: 1
+  drawInstanced: 1
+  heightmapPixelError: 5
+  basemapDistance: 1000
+  shadowCastingMode: 2
+  reflectionProbeUsage: 1
+  materialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  showTreeAndDetailSettings: 0
+  drawTreesAndFoliage: 1
+  bakeLightProbesForTrees: 1
+  deringLightProbesForTrees: 1
+  preserveTreePrototypeLayers: 0
+  detailObjectDistance: 150
+  detailObjectDensity: 1
+  treeDistance: 2000
+  treeBillboardDistance: 50
+  treeCrossFadeLength: 5
+  treeMaximumFullLODCount: 50
+  showGrassWindSettings: 0
+  wavingGrassStrength: 0.5
+  wavingGrassSpeed: 0.5
+  wavingGrassAmount: 0.167
+  wavingGrassTint: {r: 1, g: 1, b: 1, a: 0}
+  useMaskSmoothnessURP: 1
+--- !u!4 &1003432027
+Transform:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003432025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1032800684
 PrefabInstance:
@@ -5757,6 +5895,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122241725}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!108 &1122717541 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 3778687830088930056, guid: 61e5463b5ad6b6248abf6d81cad6e597,
+    type: 3}
+  m_PrefabInstance: {fileID: 1550541650}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1131776351
 GameObject:
   m_ObjectHideFlags: 0
@@ -7949,7 +8093,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8449,6 +8593,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 03a57e26d67cb774c8dffd1df6f69880,
         type: 2}
+    - target: {fileID: 3776733719407041768, guid: 61e5463b5ad6b6248abf6d81cad6e597,
+        type: 3}
+      propertyPath: AutoAddLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 1122717541}
     - target: {fileID: 3778687830088930056, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_Color.b
@@ -8479,6 +8628,11 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3779611766112889816, guid: 61e5463b5ad6b6248abf6d81cad6e597,
+        type: 3}
+      propertyPath: m_Shadows.m_Strength
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 3856301133835851870, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_Mesh
@@ -8492,32 +8646,32 @@ PrefabInstance:
     - target: {fileID: 3882518301395447908, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 43.03436
+      value: 792.50824
       objectReference: {fileID: 0}
     - target: {fileID: 3882518301395447908, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 43.03436
+      value: 792.50824
       objectReference: {fileID: 0}
     - target: {fileID: 3882518301395447908, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 43.03436
+      value: 792.50824
       objectReference: {fileID: 0}
     - target: {fileID: 3882518301395447908, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.72931
+      value: 14593.294
       objectReference: {fileID: 0}
     - target: {fileID: 3882518301395447908, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -163.83948
+      value: -10675.214
       objectReference: {fileID: 0}
     - target: {fileID: 3882518301395447908, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -154.9102
+      value: 264.56293
       objectReference: {fileID: 0}
     - target: {fileID: 3882518301395447908, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
@@ -8627,32 +8781,32 @@ PrefabInstance:
     - target: {fileID: 3890699620050179072, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 537.9295
+      value: 9906.354
       objectReference: {fileID: 0}
     - target: {fileID: 3890699620050179072, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 537.9295
+      value: 9906.354
       objectReference: {fileID: 0}
     - target: {fileID: 3890699620050179072, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 537.9295
+      value: 9906.354
       objectReference: {fileID: 0}
     - target: {fileID: 3890699620050179072, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1291.1165
+      value: -7291.6987
       objectReference: {fileID: 0}
     - target: {fileID: 3890699620050179072, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 688.408
+      value: 5019.529
       objectReference: {fileID: 0}
     - target: {fileID: 3890699620050179072, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -184.0397
+      value: -271.8775
       objectReference: {fileID: 0}
     - target: {fileID: 3890699620050179072, guid: 61e5463b5ad6b6248abf6d81cad6e597,
         type: 3}
@@ -9580,7 +9734,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10597,7 +10751,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

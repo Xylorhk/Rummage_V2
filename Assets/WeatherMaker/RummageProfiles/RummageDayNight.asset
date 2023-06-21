@@ -15,8 +15,8 @@ MonoBehaviour:
   Speed: 100
   NightSpeed: 150
   UpdateInterval: 0.03
-  TimeOfDay: 28813
-  TimeOfDayLabel: 08:00 AM
+  TimeOfDay: 78408
+  TimeOfDayLabel: 09:46 PM
   Year: 2039
   Month: 5
   Day: 8
@@ -142,7 +142,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  DayAmbientColorIntensity: 1.17
+  DayAmbientColorIntensity: 1.38
   DayAmbientColorSky:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -382,7 +382,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  NightAmbientColorIntensity: 0.2
+  NightAmbientColorIntensity: 0.43
   NightAmbientColorSky:
     serializedVersion: 2
     key0: {r: 0.5808823, g: 0.5837729, b: 1, a: 1}
@@ -412,7 +412,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  NightAmbientColorSkyIntensity: 0.2
+  NightAmbientColorSkyIntensity: 0.71
   NightAmbientColorGround:
     serializedVersion: 2
     key0: {r: 0.5808823, g: 0.5837729, b: 1, a: 1}
@@ -442,7 +442,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  NightAmbientColorGroundIntensity: 0.2
+  NightAmbientColorGroundIntensity: 0.39
   NightAmbientColorEquator:
     serializedVersion: 2
     key0: {r: 0.5808823, g: 0.5837729, b: 1, a: 1}
@@ -472,7 +472,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  NightAmbientColorEquatorIntensity: 0.7
+  NightAmbientColorEquatorIntensity: 1.11
   SunTintColorGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}

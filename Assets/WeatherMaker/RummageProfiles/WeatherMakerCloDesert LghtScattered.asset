@@ -20,11 +20,11 @@ MonoBehaviour:
     type: 2}
   DirectionalLightIntensityMultiplier: 1
   DirectionalLightScatterMultiplier: 1
-  DirectionalLightAtmosphericShadow: 0.345
+  DirectionalLightAtmosphericShadow: 0.47
   CloudLightStrength: 0.67
   WeatherMapRenderTextureOverride: {fileID: 0}
   WeatherMapRenderTextureMask: {fileID: 0}
-  WorldScale: 0.000041
+  WorldScale: 0.000148
   NoiseScaleX:
     Minimum: 1
     Maximum: 1
@@ -33,14 +33,14 @@ MonoBehaviour:
     Maximum: 1
   WeatherMapCloudCoverageVelocity: {x: 50, y: 50, z: 0}
   WeatherMapCloudCoverageNoiseType:
-    Minimum: 0.9078922
+    Minimum: 0.8972176
     Maximum: 1
   WeatherMapCloudCoverageScale:
     Minimum: 0.01
-    Maximum: 15.525264
+    Maximum: 9.6548
   WeatherMapCloudCoverageRotation:
-    Minimum: -312.72247
-    Maximum: -179.42406
+    Minimum: 21.607086
+    Maximum: 154.90552
   WeatherMapCloudCoverageAdder:
     Minimum: -0.15456663
     Maximum: -0.10456662
