@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: QuickSand
+  m_Name: QuickSand Big
   m_Shader: {fileID: -6465566751694194690, guid: 454241efc6a01eb44b58cc3a07ff3e0c,
     type: 3}
   m_ValidKeywords: []
