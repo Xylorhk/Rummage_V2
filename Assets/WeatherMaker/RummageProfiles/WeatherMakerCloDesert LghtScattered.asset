@@ -18,26 +18,26 @@ MonoBehaviour:
   CloudLayer4: {fileID: 11400000, guid: 2f55f6d4d5e7bef4daefe5602d970e03, type: 2}
   CloudLayerVolumetric1: {fileID: 11400000, guid: 3d63898c62ab93d4da0ac9657d143dfc,
     type: 2}
-  DirectionalLightIntensityMultiplier: 1
+  DirectionalLightIntensityMultiplier: 0.95
   DirectionalLightScatterMultiplier: 1
-  DirectionalLightAtmosphericShadow: 0.47
-  CloudLightStrength: 0.67
+  DirectionalLightAtmosphericShadow: 0.598
+  CloudLightStrength: 2.31
   WeatherMapRenderTextureOverride: {fileID: 0}
   WeatherMapRenderTextureMask: {fileID: 0}
-  WorldScale: 0.000047
+  WorldScale: 0.00004
   NoiseScaleX:
-    Minimum: 1
-    Maximum: 1
+    Minimum: 0
+    Maximum: 10
   NoiseScaleY:
-    Minimum: 1
-    Maximum: 1
+    Minimum: 0
+    Maximum: 10
   WeatherMapCloudCoverageVelocity: {x: 50, y: 50, z: 0}
   WeatherMapCloudCoverageNoiseType:
-    Minimum: 0.8972176
+    Minimum: 0.8679693
     Maximum: 1
   WeatherMapCloudCoverageScale:
     Minimum: 0.01
-    Maximum: 9.6548
+    Maximum: 6.7302504
   WeatherMapCloudCoverageRotation:
     Minimum: 21.607086
     Maximum: 154.90552
@@ -66,7 +66,7 @@ MonoBehaviour:
   WeatherMapCloudCoverageNegationWarpMax: {x: 0, y: 0, z: 0, w: 0}
   WeatherMapCloudDensityVelocity: {x: 11, y: 15, z: 0}
   WeatherMapCloudDensityNoiseType:
-    Minimum: 0.9660656
+    Minimum: 0.71014285
     Maximum: 1
   WeatherMapCloudDensityScale:
     Minimum: 0.01
@@ -131,7 +131,7 @@ MonoBehaviour:
   WeatherMapCloudTypeNegationWarpMin: {x: 0, y: 0, z: 0, w: 0}
   WeatherMapCloudTypeNegationWarpMax: {x: 0, y: 0, z: 0, w: 0}
   CloudHeight:
-    Minimum: 500
+    Minimum: 700
     Maximum: 2000
   CloudHeightTop:
     Minimum: 4000
