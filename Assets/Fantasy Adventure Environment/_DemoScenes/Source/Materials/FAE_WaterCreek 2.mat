@@ -75,7 +75,7 @@ Material:
     - _Cutoff: 0.5
     - _Depth: 1.94
     - _Depthdarkness: 0.551
-    - _EdgeFade: 0.145
+    - _EdgeFade: 0.321
     - _FlowSpeed: 1
     - _Fresnelexponent: 4
     - _Glossiness: 1
@@ -85,7 +85,7 @@ Material:
     - _QueueOffset: 0
     - _RefractionAmount: 0.0514
     - _RimDistance: 0
-    - _RimRize: 0.6
+    - _RimRize: 15
     - _RimSize: 1.42
     - _RimTiling: 20.82
     - _Rimfalloff: 0.11
@@ -93,7 +93,7 @@ Material:
     - _SurfaceHighlight: 0.05
     - _SurfaceHightlighttiling: 0.25
     - _Surfacehightlightsize: 0
-    - _Tiling: 0.05
+    - _Tiling: 0.1
     - _Transparency: 0.476
     - _Wavesspeed: 0.75
     - _Wavesstrength: 0.207
