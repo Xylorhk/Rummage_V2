@@ -20,7 +20,7 @@ MonoBehaviour:
   cloudStatus: 
   cloudProgress: 0
   fileName: TestSaveData
-  selectedApplicationPath: 1
+  selectedApplicationPath: 0
   debugMode: 0
   showFieldTypes: 0
   showInitValues: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
   databoxScheme: {fileID: 0}
   encryption: 0
   encryptionKey: 123456
-  compressJson: 0
+  compressJson: 1
   collapsedView: 0
   showInspector: 1
   entriesPerPage: 99

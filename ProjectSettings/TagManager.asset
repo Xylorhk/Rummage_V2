@@ -21,8 +21,8 @@ TagManager:
   - ItemRenderer
   - Electrical
   - Target
-  - 
-  - 
+  - Platform
+  - Interactable
   - 
   - 
   - 
