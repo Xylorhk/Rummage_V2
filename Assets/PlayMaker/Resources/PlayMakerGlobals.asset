@@ -98,3 +98,7 @@ MonoBehaviour:
   - InventoryRemoveItem
   - UpdateTarget
   - RepositionHandIK
+  - ScaleDown
+  - ScaleUp
+  - InfoScaleDown
+  - InfoScaleUp
