@@ -102,3 +102,9 @@ MonoBehaviour:
   - ScaleUp
   - InfoScaleDown
   - InfoScaleUp
+  - StartRagDoll
+  - StopRagdoll
+  - DamagePlayer
+  - HealPlayer
+  - RespawnPlayer
+  - SaveCheckPoint

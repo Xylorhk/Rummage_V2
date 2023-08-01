@@ -16,6 +16,7 @@ Material:
   - ENABLE_FOG_LIGHTS
   - WATER_EDGEBLEND_ON
   - WATER_REFLECTIVE
+  - _WEATHERMAKERFOGMODE_EXPONENTIAL
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -52,11 +53,11 @@ Material:
     - _FogPercentage: 0.9
     - _MaxFogFactor: 1
     - _PointSpotLightMultiplier: 1
-    - _WeatherMakerFogDensity: 0.066
+    - _WeatherMakerFogDensity: 0.517
     - _WeatherMakerFogFactorMax: 1
     - _WeatherMakerFogMode: 3
     - _WeatherMakerFogNoiseMultiplier: 1.15
-    - _WeatherMakerFogNoiseScale: 0.02
+    - _WeatherMakerFogNoiseScale: 0.152
     - _WeatherMakerFogPercentage: 0.9
     m_Colors:
     - _FogBoxMax: {r: 324.8, g: 24, b: 58, a: 0}
@@ -70,8 +71,8 @@ Material:
     - _WeatherMakerFogBoxMaxDir: {r: 0, g: 0, b: 0, a: 0}
     - _WeatherMakerFogBoxMin: {r: -8, g: -1, b: 12, a: 0}
     - _WeatherMakerFogBoxMinDir: {r: 0, g: 0, b: 0, a: 0}
-    - _WeatherMakerFogColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WeatherMakerFogNoiseVelocity: {r: -0.4578325, g: 0.61044335, b: -1.2208867,
+    - _WeatherMakerFogColor: {r: 0.3773585, g: 0.2513113, b: 0.16162334, a: 1}
+    - _WeatherMakerFogNoiseVelocity: {r: -297.23456, g: 396.31018, b: -792.62036,
         a: 0}
     - _WeatherMakerFogVolumePower: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
