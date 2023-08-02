@@ -9296,7 +9296,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 57.898438
-        y: 116.53906
+        y: 132.53906
         width: 100
         height: 32
       isBreakpoint: 0
@@ -9314,7 +9314,6 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.SetParent
         - HutongGames.PlayMaker.Actions.CallMethod
         - HutongGames.PlayMaker.Actions.SetIsKinematic
         - HutongGames.PlayMaker.Actions.SetProperty
@@ -9330,28 +9329,13 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 0101010101010101
-        actionIsOpen: 0101000101010101
-        actionStartIndex: 00000000050000000b0000000d0000000f00000014000000190000001e000000
-        actionHashCodes: a0dd8303ca51e90015264c015ac852045f9135045f9135045f913504a4c8bf00
+        actionEnabled: 01010101010101
+        actionIsOpen: 01000101010101
+        actionStartIndex: 0000000006000000080000000a0000000f0000001400000019000000
+        actionHashCodes: ca51e90015264c015ac852045f9135045f9135045f913504a4c8bf00
         unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 4427436361268609316}
+        fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 7985573676042467060}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -9590,24 +9574,6 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
           value: 0
         - useVariable: 0
           name: 
@@ -9647,13 +9613,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001300000011000000110000001100000018000000120000000c0000002700000001000000010000001400000011000000240000000100000014000000120000001100000001000000070000001400000012000000110000000100000007000000140000001200000011000000010000000700000011000000170000001700000001000000
+        paramDataType: 18000000120000000c0000002700000001000000010000001400000011000000240000000100000014000000120000001100000001000000070000001400000012000000110000000100000007000000140000001200000011000000010000000700000011000000170000001700000001000000
         paramName:
-        - gameObject
-        - parent
-        - worldPositionStays
-        - resetLocalPosition
-        - resetLocalRotation
         - behaviour
         - methodName
         - parameters
@@ -9683,15 +9644,15 @@ MonoBehaviour:
         - isTrue
         - isFalse
         - everyFrame
-        paramDataPos: 000000000000000000000000010000000200000000000000000000000000000000000000000000000100000001000000030000000000000002000000020000000100000004000000030000000400000003000000020000000500000008000000090000000400000003000000060000000d0000000e00000007000000000000000100000012000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000000000000000000001000000040000000000000000000000000000000100000004000000000000000000000000000000010000000400000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000000000000100000000000000000000000000000002000000010000000100000001000000030000000400000002000000020000000200000008000000090000000300000003000000030000000d0000000e00000004000000000000000100000012000000
+        paramByteDataSize: 0000000000000000000000000000000001000000010000000000000000000000000000000100000000000000000000000000000001000000040000000000000000000000000000000100000004000000000000000000000000000000010000000400000000000000000000000000000001000000
     - name: ReachCheck
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 346
-        y: 188.79688
+        y: 204.79688
         width: 104.4
         height: 48
       isBreakpoint: 0
@@ -10070,8 +10031,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 292
-        y: 62.796875
+        x: 380
+        y: 93.796875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -10082,7 +10043,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Grounded
+        toState: ResetParent
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -10588,7 +10549,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 89
-        y: 224.82031
+        y: 240.82031
         width: 100
         height: 48
       isBreakpoint: 0
@@ -10727,6 +10688,106 @@ MonoBehaviour:
         - updateMode
         paramDataPos: 00000000000000000000000000000000010000000100000000000000010000000500000002000000020000000300000004000000010000000000000006000000
         paramByteDataSize: 00000000000000000000000001000000040000000000000000000000000000000100000000000000000000000000000000000000000000000000000004000000
+    - name: ResetParent
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 208
+        y: 61.796875
+        width: 103.6
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Grounded
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetParent
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: a0dd8303
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 4427436361268609316}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 7985573676042467060}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000013000000110000001100000011000000
+        paramName:
+        - gameObject
+        - parent
+        - worldPositionStays
+        - resetLocalPosition
+        - resetLocalRotation
+        paramDataPos: 0000000000000000000000000100000002000000
+        paramByteDataSize: 0000000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -20210,6 +20271,2310 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &8942806633710170146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7985573676042467060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d8f43ae320672469f9742aa12f793b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdoll: {fileID: 8942806633710170199}
+  PowerMul: 25
+  ImpactDuration: 0.485
+  FadeMusclesTo: 0.11
+  FadeMusclesDuration: 0.688
+  snapToGroundLayer:
+    serializedVersion: 2
+    m_Bits: 513
+  AutoGetUp: 0
+  GetUpVersion2: 1
+  TestPlayAnimOnRagdoll: Fall
+  CanGetUp: 0
+  LimbsVelocity: {x: 0, y: 0, z: 0}
+  LimbsVelocityMagn: 0
+--- !u!114 &8942806633710170160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7985573676042467060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: PlayerHealth
+    startState: Init
+    states:
+    - name: Init
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 54.84375
+        y: 126
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: DisplayHealth
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 603dd905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: Health
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
+        - useVariable: 1
+          name: HealthMax
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 3
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000001000000
+        paramName:
+        - intVariable
+        - intValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
+    - name: TakeDamage
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 483
+        y: 57.796875
+        width: 109.2
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: DisplayHealth
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntSubtract
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 31e5da02
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: Health
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
+        - useVariable: 1
+          name: DamageAmount
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 10000000100000000100000001000000
+        paramName:
+        - intVariable
+        - subtract
+        - everyFrame
+        - perSecond
+        paramDataPos: 00000000010000000000000001000000
+        paramByteDataSize: 00000000000000000100000001000000
+    - name: DisplayHealth
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 281
+        y: 142.79688
+        width: 117.2
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: DamagePlayer
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: TakeDamage
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: HealPlayer
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: RecoverHealth
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Death
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Death
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntClamp
+        - HutongGames.PlayMaker.Actions.IntCompare
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: 2181e80209faa102
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: Health
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
+        - useVariable: 1
+          name: HealthMin
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: HealthMax
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 3
+        - useVariable: 1
+          name: Health
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
+        - useVariable: 1
+          name: HealthMin
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Death
+        - 
+        - 
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 10000000100000001000000001000000100000001000000017000000170000001700000001000000
+        paramName:
+        - intVariable
+        - minValue
+        - maxValue
+        - everyFrame
+        - integer1
+        - integer2
+        - equal
+        - lessThan
+        - greaterThan
+        - everyFrame
+        paramDataPos: 00000000010000000200000000000000030000000400000000000000010000000200000001000000
+        paramByteDataSize: 00000000000000000000000001000000000000000000000000000000000000000000000001000000
+    - name: RecoverHealth
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 502
+        y: 159.79688
+        width: 117.2
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: DisplayHealth
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntAdd
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 603dd905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: Health
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
+        - useVariable: 1
+          name: RecoveryAmount
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000001000000
+        paramName:
+        - intVariable
+        - add
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
+    - name: Death
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 485.89844
+        y: 276.02344
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: DamagePlayer
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Death
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: HealPlayer
+      isSystemEvent: 0
+      isGlobal: 1
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables:
+      - useVariable: 1
+        name: Health
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 3
+      - useVariable: 1
+        name: HealthMin
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: HealthMax
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 3
+      - useVariable: 1
+        name: DamageAmount
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: RecoveryAmount
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 0000000000000000000000000000000000000000
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices: 000000000300000004000000
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
+--- !u!114 &8942806633710170177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7985573676042467060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: RagdollController
+    startState: Listen
+    states:
+    - name: Ragdoll Off
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 54
+        y: 186
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Listen
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.CallMethod
+        - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
+        - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.SendMessage
+        - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.EaseFloat
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 00000000060000000a0000000c0000001000000014000000
+        actionHashCodes: ca51e900aee3d8015ac8520491d45a005e69bb04bd9b4401
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 7985573676042467060}
+        animationCurveParams: []
+        functionCallParams:
+        - FunctionName: ShouldMove
+          parameterType: bool
+          BoolParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 1
+          FloatParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            enumName: HutongGames.PlayMaker.None
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: UnityEngine.Object
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 0
+              name: 
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 8942806633760891814}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams:
+        - TargetObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: UnityEngine.Object
+            value: {fileID: 8942806633710170199}
+          TargetTypeName: FIMSpace.FProceduralAnimation.RagdollAnimator
+          PropertyName: Parameters.RagdolledBlend
+          BoolParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          FloatParameter:
+            useVariable: 1
+            name: RagdollBlendAmount
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Single
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            enumName: HutongGames.PlayMaker.None
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: UnityEngine.Object
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+          setProperty: 1
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: TriggerGetUp
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: FIMSpace.RagdollAnimatorDemo.Demo_Ragd_PushAndGetUp
+          value: {fileID: 8942806633710170146}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.InputSystem.InputActionReference
+          value: {fileID: -5774741125395999449, guid: 94483f8e9832ba849ae8384224f117c0,
+            type: 3}
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: RagdollBlendAmount
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: RagdollBlendAmount
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.3
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - InfoScaleDown
+        - FINISHED
+        byteData: 000000000000010000000001000000001500000000
+        arrayParamSizes: 00000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 18000000120000000c000000270000000100000001000000110000001400000018000000070000002400000001000000140000000700000007000000150000001f000000170000000f000000010000000f0000000f0000000f0000000f0000000f0000000f00000007000000110000001700000001000000
+        paramName:
+        - behaviour
+        - methodName
+        - parameters
+        - storeResult
+        - everyFrame
+        - manualUI
+        - enable
+        - gameObject
+        - inputAction
+        - updateMode
+        - targetProperty
+        - everyFrame
+        - gameObject
+        - delivery
+        - options
+        - functionCall
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        - fromValue
+        - toValue
+        - floatVariable
+        - time
+        - speed
+        - delay
+        - easeType
+        - reverse
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000000000000000000000000000000000000100000000000000000000000100000002000000000000000600000001000000070000000b000000000000000000000000000000000000000f00000001000000020000000300000004000000050000000600000010000000010000000100000014000000
+        paramByteDataSize: 000000000000000000000000000000000100000001000000000000000000000000000000040000000000000001000000000000000400000004000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000004000000000000000000000001000000
+    - name: Ragdoll On
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 416.70312
+        y: 187.11719
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Wait For Input
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
+        - HutongGames.PlayMaker.Actions.SendMessage
+        - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.EaseFloat
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000004000000080000000a0000000c000000
+        actionHashCodes: aee3d80191d45a005ac852045ac85204bd9b4401
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 7985573676042467060}
+        animationCurveParams: []
+        functionCallParams:
+        - FunctionName: ShouldMove
+          parameterType: bool
+          BoolParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          FloatParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            enumName: HutongGames.PlayMaker.None
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: UnityEngine.Object
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams:
+        - TargetObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: UnityEngine.Object
+            value: {fileID: 8942806633710170199}
+          TargetTypeName: FIMSpace.FProceduralAnimation.RagdollAnimator
+          PropertyName: Parameters.FreeFallRagdoll
+          BoolParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 1
+          FloatParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Boolean
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            enumName: HutongGames.PlayMaker.None
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: UnityEngine.Object
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+          setProperty: 1
+        - TargetObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: UnityEngine.Object
+            value: {fileID: 8942806633710170199}
+          TargetTypeName: FIMSpace.FProceduralAnimation.RagdollAnimator
+          PropertyName: Parameters.RagdolledBlend
+          BoolParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          FloatParameter:
+            useVariable: 1
+            name: RagdollBlendAmount
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Single
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            enumName: HutongGames.PlayMaker.None
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: UnityEngine.Object
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+          setProperty: 1
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.InputSystem.InputActionReference
+          value: {fileID: -5774741125395999449, guid: 94483f8e9832ba849ae8384224f117c0,
+            type: 3}
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: RagdollBlendAmount
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: RagdollBlendAmount
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.01
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 00000000000000000100000000010100000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1100000014000000180000000700000014000000070000000700000015000000240000000100000024000000010000000f0000000f0000000f0000000f0000000f0000000f00000007000000110000001700000001000000
+        paramName:
+        - enable
+        - gameObject
+        - inputAction
+        - updateMode
+        - gameObject
+        - delivery
+        - options
+        - functionCall
+        - targetProperty
+        - everyFrame
+        - targetProperty
+        - everyFrame
+        - fromValue
+        - toValue
+        - floatVariable
+        - time
+        - speed
+        - delay
+        - easeType
+        - reverse
+        - finishEvent
+        - realTime
+        paramDataPos: 0000000000000000000000000000000001000000040000000800000000000000000000000c000000010000000d0000000000000001000000020000000300000004000000050000000e000000010000000000000012000000
+        paramByteDataSize: 00000000000000000000000004000000000000000400000004000000000000000000000001000000000000000100000000000000000000000000000000000000000000000000000004000000000000000000000001000000
+    - name: Listen
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 237
+        y: 103.796875
+        width: 105.2
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: StartRagDoll
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: Ragdoll On
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: StopRagdoll
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: Ragdoll Off
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetKeyDown
+        - HutongGames.PlayMaker.Actions.GetKeyDown
+        customNames:
+        - 
+        - 
+        actionEnabled: 0000
+        actionIsOpen: 0000
+        actionStartIndex: 0000000003000000
+        actionHashCodes: ff77a904ff77a904
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - StartRagDoll
+        - StopRagdoll
+        byteData: 0101000002010000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 070000001700000011000000070000001700000011000000
+        paramName:
+        - key
+        - sendEvent
+        - storeResult
+        - key
+        - sendEvent
+        - storeResult
+        paramDataPos: 000000000000000000000000040000000100000001000000
+        paramByteDataSize: 040000000000000000000000040000000000000000000000
+    - name: Wait For Input
+      description: Sends Key info as well
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 220
+        y: 272.8125
+        width: 138.4
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: StopRagdoll
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: Ragdoll Off
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.PlayerInputButtonEvents
+        - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.SetFsmString
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000070000000b000000
+        actionHashCodes: 0d4efe005e69bb0452221a02
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 8942806633760891814}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 0
+              name: 
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 8942806633760891814}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: InfoText
+        - useVariable: 1
+          name: GetUpText
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: Press "Space" to Get Up
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.InputSystem.InputActionReference
+          value: {fileID: 8515889170333072481, guid: 94483f8e9832ba849ae8384224f117c0,
+            type: 3}
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - StopRagdoll
+        - 
+        - InfoScaleUp
+        byteData: 010000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 110000001700000017000000170000001400000018000000070000001f000000170000000f000000010000001400000012000000120000001200000001000000
+        paramName:
+        - isPressed
+        - isPressedEvent
+        - wasPressedThisFrame
+        - wasReleasedThisFrame
+        - gameObject
+        - inputAction
+        - updateMode
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        paramDataPos: 00000000000000000100000002000000000000000000000000000000000000000300000000000000040000000100000000000000010000000200000005000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000004000000000000000000000000000000010000000000000000000000000000000000000001000000
+    events:
+    - name: StartRagDoll
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: StopRagdoll
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: InfoScaleUp
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: InfoScaleDown
+      isSystemEvent: 0
+      isGlobal: 1
+    globalTransitions: []
+    variables:
+      floatVariables:
+      - useVariable: 1
+        name: RagdollBlendAmount
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      intVariables: []
+      boolVariables: []
+      stringVariables:
+      - useVariable: 1
+        name: GetUpText
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: Press "Space" to Get Up
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 0000000000000000
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices: 
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
+--- !u!114 &8942806633710170199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7985573676042467060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5af6811ac446f49bc6343be723726b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Processor:
+    GeneratorParameters:
+      TargetMassOfWholeModel: 65
+      ScaleRagdoll: 1
+      DragForAllRigidbodies: 0.5
+      AngularDragForRigidbodies: 1.25
+      RigidbodiesInterpolation: 1
+      generateFists: 0
+      generateFoots: 0
+      generateShoulders: 0
+    SendCollisionEventsTo: {fileID: 0}
+    SendOnlyOnFreeFall: 1
+    AlwaysAddCollisionHelpers: 0
+    KeepCollidersOnAnimator: 0
+    ChangeAnimatorCollidersLayerTo: 11
+    RemoveOnlyTargetRagdollCollidersOnAnimator: 0
+    IgnoreAnimatorToRagdollCollision: 1
+    CheckFullBoneNamesWhenSearching: 1
+    AllowDisableCalculationsOnZeroBlend: 1
+    FreeFallRagdoll: 1
+    RagdolledBlend: 0
+    RotateToPoseForce: 0.75
+    UnitySolverIterations: 6
+    BlendOnCollision: 0
+    ConstantArmsRagdoll: 0
+    ConstantHeadRagdoll: 0
+    ConstantSpineRagdoll: 0
+    BlendingSpeed: 0.5
+    SensitiveCollision: 0
+    ConfigurableSpring: 1650
+    ConfigurableDamp: 18
+    HipsPinSpring: 4000
+    HipsPositionOffset: {x: 0, y: 0, z: 0}
+    HipsBoostMul: {x: 1, y: 1, z: 1}
+    HipsPinV2: 1
+    StandUpInFootPoint: 0
+    HeadForce: 0
+    SpineForce: 0.966
+    RightArmForce: 0
+    LeftArmForce: 0
+    LeftLegForce: 0
+    RightLegForce: 0
+    ExtendedAnimatorSync: 0
+    ReposeMode: 1
+    ReposeOnlyOnFullRagdoll: 0
+    IgnoreSelfCollision: 0
+    MassMultiplier: 1
+    SetPhysicalMaterial: {fileID: 0}
+    RemoveLimitsWhenNonFreeFall: 0
+    HideDummy: 0
+    IgnoreCollisionWith: []
+    HipsPin: 0
+    TryAnimatePelvis: 1
+    StartAfterTPose: 0
+    ResetIsKinematic: 0
+    Persistent: 0
+    AnimatePhysics: 1
+    AddNamePrefix: 1
+    FixRootInPelvis: 0
+    Calibrate: 0
+    BonesSetupMode: 0
+    CustomLimbsBonesChains:
+    - ChainName: Spine
+      BoneSetups:
+      - t: {fileID: 7985573674716171782}
+        ColliderType: 2
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.18
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      - t: {fileID: 7985573675428700005}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.18
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      - t: {fileID: 7985573675661149706}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.09
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      BlendOnCollisions: 1
+      Detach: 0
+      ConstantRagdoll: 0
+      MusclesForce: 1
+    - ChainName: Left Arm
+      BoneSetups:
+      - t: {fileID: 7985573674873357214}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.015
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      - t: {fileID: 7985573674841017255}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.011
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      BlendOnCollisions: 1
+      Detach: 0
+      ConstantRagdoll: 0
+      MusclesForce: 1
+    - ChainName: Right Arm
+      BoneSetups:
+      - t: {fileID: 7985573675969496740}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.015
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      - t: {fileID: 7985573674479900117}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.011
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      BlendOnCollisions: 1
+      Detach: 0
+      ConstantRagdoll: 0
+      MusclesForce: 1
+    - ChainName: Left Leg
+      BoneSetups:
+      - t: {fileID: 7985573675765442014}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.1
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      - t: {fileID: 7985573674566542138}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.07
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      BlendOnCollisions: 1
+      Detach: 0
+      ConstantRagdoll: 0
+      MusclesForce: 1
+    - ChainName: Right Leg
+      BoneSetups:
+      - t: {fileID: 7985573676199903472}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.1
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      - t: {fileID: 7985573675064199023}
+        ColliderType: 0
+        ColliderMesh: {fileID: 0}
+        MassPercentage: 0.07
+        MuscleForceMultiplier: 1
+        Generator_ScaleMul: 1
+        Generator_LengthMul: 1
+        Generator_LengthOffset: 0
+        Generator_BoxScale: {x: 1, y: 1, z: 1}
+        Generator_Offset: {x: 0, y: 0, z: 0}
+        Generator_OverrideCapsuleDir: -1
+        Generator_Extra: 0
+      BlendOnCollisions: 1
+      Detach: 0
+      ConstantRagdoll: 0
+      MusclesForce: 1
+    _pelvisSetupBone:
+      t: {fileID: 7985573675526348206}
+      ColliderType: 0
+      ColliderMesh: {fileID: 0}
+      MassPercentage: 0.18
+      MuscleForceMultiplier: 1
+      Generator_ScaleMul: 1
+      Generator_LengthMul: 1
+      Generator_LengthOffset: 0
+      Generator_BoxScale: {x: 1, y: 1, z: 1}
+      Generator_Offset: {x: 0, y: 0, z: 0}
+      Generator_OverrideCapsuleDir: -1
+      Generator_Extra: 0
+    _EditorCategory: 1
+    _EditorDrawBones: 1
+    _EditorDrawHumanoidExtra: 0
+    _EditorDrawGenerator: 1
+    _EditorDrawMore: 1
+    DebugV3: {x: 0, y: 0, z: 0}
+    ObjectWithAnimator: {fileID: 7985573676042467058}
+    RagdollDummyBase: {fileID: 8942806633363500365}
+    RagdollDummyRoot: {fileID: 8942806633706735850}
+    RagdollDummySkeleton: {fileID: 8942806633807612516}
+    RootInParent: {fileID: 7985573675526348206}
+    PelvisInDummy: {fileID: 8942806633807612516}
+    RagdollDummyAnimator: {fileID: 7985573676042467058}
+    _helpChestName: Spine_03_jnt
+    usePreGeneratedDummy: 1
+    BaseTransform: {fileID: 7985573676042467058}
+    Pelvis: {fileID: 7985573675526348206}
+    SpineStart: {fileID: 7985573674716171782}
+    Chest: {fileID: 7985573675428700005}
+    Head: {fileID: 7985573675661149706}
+    LeftUpperArm: {fileID: 7985573674873357214}
+    LeftForeArm: {fileID: 7985573674841017255}
+    RightUpperArm: {fileID: 7985573675969496740}
+    RightForeArm: {fileID: 7985573674479900117}
+    LeftUpperLeg: {fileID: 7985573675765442014}
+    LeftLowerLeg: {fileID: 7985573674566542138}
+    RightUpperLeg: {fileID: 7985573676199903472}
+    RightLowerLeg: {fileID: 7985573675064199023}
+    LeftFist: {fileID: 0}
+    RightFist: {fileID: 0}
+    LeftFoot: {fileID: 0}
+    RightFoot: {fileID: 0}
+    LeftShoulder: {fileID: 0}
+    RightShoulder: {fileID: 0}
+    PelvisLocalRight: {x: 0, y: 0, z: 0}
+    PelvisLocalUp: {x: 0, y: 0, z: 0}
+    PelvisLocalForward: {x: 0, y: 0, z: 0}
+    PelvisToBase: {x: 0, y: 0, z: 0}
+    LForearmToHand: {x: 0, y: 0, z: 0}
+    RForearmToHand: {x: 0, y: 0, z: 0}
+    HeadToTip: {x: 0, y: 0, z: 0}
+  ObjectWithAnimator: {fileID: 7985573676042467058}
+  RootBone: {fileID: 7985573675526348206}
+  CustomRagdollAnimator: {fileID: 0}
+  AutoDestroy: 1
+  PreGenerateDummy: 1
+  TargetParentForRagdollDummy: {fileID: 7985573676042467058}
 --- !u!114 &8942806633710170527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21550,2310 +23915,6 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     outVariableIndices: 03000000
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!114 &8942806633710170177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7985573676042467060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: RagdollController
-    startState: Listen
-    states:
-    - name: Ragdoll Off
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 54
-        y: 186
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Listen
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.CallMethod
-        - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
-        - HutongGames.PlayMaker.Actions.SetProperty
-        - HutongGames.PlayMaker.Actions.SendMessage
-        - HutongGames.PlayMaker.Actions.SendEvent
-        - HutongGames.PlayMaker.Actions.EaseFloat
-        customNames:
-        - 
-        - 
-        - 
-        - 
-        - 
-        - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 00000000060000000a0000000c0000001000000014000000
-        actionHashCodes: ca51e900aee3d8015ac8520491d45a005e69bb04bd9b4401
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 7985573676042467060}
-        animationCurveParams: []
-        functionCallParams:
-        - FunctionName: ShouldMove
-          parameterType: bool
-          BoolParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 1
-          FloatParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          IntParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          GameObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-          ObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          StringParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          Vector2Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0}
-          Vector3Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0}
-          RectParamater:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value:
-              serializedVersion: 2
-              x: 0
-              y: 0
-              width: 0
-              height: 0
-          QuaternionParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0, w: 0}
-          MaterialParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          TextureParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          ColorParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {r: 0, g: 0, b: 0, a: 1}
-          EnumParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            enumName: HutongGames.PlayMaker.None
-            intValue: 0
-          ArrayParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: UnityEngine.Object
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams:
-        - target: 2
-          excludeSelf:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          gameObject:
-            ownerOption: 1
-            gameObject:
-              useVariable: 0
-              name: 
-              tooltip: 
-              showInInspector: 0
-              networkSync: 0
-              value: {fileID: 8942806633760891814}
-          fsmName:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          sendToChildren:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          fsmComponent: {fileID: 0}
-        fsmPropertyParams:
-        - TargetObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: UnityEngine.Object
-            value: {fileID: 8942806633710170199}
-          TargetTypeName: FIMSpace.FProceduralAnimation.RagdollAnimator
-          PropertyName: Parameters.RagdolledBlend
-          BoolParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          FloatParameter:
-            useVariable: 1
-            name: RagdollBlendAmount
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          IntParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          GameObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-          StringParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          Vector2Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0}
-          Vector3Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0}
-          RectParamater:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value:
-              serializedVersion: 2
-              x: 0
-              y: 0
-              width: 0
-              height: 0
-          QuaternionParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0, w: 0}
-          ObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: System.Single
-            value: {fileID: 0}
-          MaterialParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          TextureParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          ColorParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {r: 0, g: 0, b: 0, a: 1}
-          EnumParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            enumName: HutongGames.PlayMaker.None
-            intValue: 0
-          ArrayParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: UnityEngine.Object
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
-          setProperty: 1
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: TriggerGetUp
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: FIMSpace.RagdollAnimatorDemo.Demo_Ragd_PushAndGetUp
-          value: {fileID: 8942806633710170146}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.InputSystem.InputActionReference
-          value: {fileID: -5774741125395999449, guid: 94483f8e9832ba849ae8384224f117c0,
-            type: 3}
-        fsmVarParams:
-        - variableName: 
-          objectType: 
-          useVariable: 0
-          type: -1
-          floatValue: 0
-          intValue: 0
-          boolValue: 0
-          stringValue: 
-          vector4Value: {x: 0, y: 0, z: 0, w: 0}
-          objectReference: {fileID: 0}
-          arrayValue:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: 
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: RagdollBlendAmount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: RagdollBlendAmount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0.3
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - InfoScaleDown
-        - FINISHED
-        byteData: 000000000000010000000001000000001500000000
-        arrayParamSizes: 00000000
-        arrayParamTypes:
-        - HutongGames.PlayMaker.FsmVar
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 18000000120000000c000000270000000100000001000000110000001400000018000000070000002400000001000000140000000700000007000000150000001f000000170000000f000000010000000f0000000f0000000f0000000f0000000f0000000f00000007000000110000001700000001000000
-        paramName:
-        - behaviour
-        - methodName
-        - parameters
-        - storeResult
-        - everyFrame
-        - manualUI
-        - enable
-        - gameObject
-        - inputAction
-        - updateMode
-        - targetProperty
-        - everyFrame
-        - gameObject
-        - delivery
-        - options
-        - functionCall
-        - eventTarget
-        - sendEvent
-        - delay
-        - everyFrame
-        - fromValue
-        - toValue
-        - floatVariable
-        - time
-        - speed
-        - delay
-        - easeType
-        - reverse
-        - finishEvent
-        - realTime
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000000000000100000002000000000000000600000001000000070000000b000000000000000000000000000000000000000f00000001000000020000000300000004000000050000000600000010000000010000000100000014000000
-        paramByteDataSize: 000000000000000000000000000000000100000001000000000000000000000000000000040000000000000001000000000000000400000004000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000004000000000000000000000001000000
-    - name: Ragdoll On
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 416.70312
-        y: 187.11719
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait For Input
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
-        - HutongGames.PlayMaker.Actions.SendMessage
-        - HutongGames.PlayMaker.Actions.SetProperty
-        - HutongGames.PlayMaker.Actions.SetProperty
-        - HutongGames.PlayMaker.Actions.EaseFloat
-        customNames:
-        - 
-        - 
-        - 
-        - 
-        - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 0000000004000000080000000a0000000c000000
-        actionHashCodes: aee3d80191d45a005ac852045ac85204bd9b4401
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 7985573676042467060}
-        animationCurveParams: []
-        functionCallParams:
-        - FunctionName: ShouldMove
-          parameterType: bool
-          BoolParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          FloatParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          IntParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          GameObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-          ObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          StringParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          Vector2Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0}
-          Vector3Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0}
-          RectParamater:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value:
-              serializedVersion: 2
-              x: 0
-              y: 0
-              width: 0
-              height: 0
-          QuaternionParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0, w: 0}
-          MaterialParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          TextureParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          ColorParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {r: 0, g: 0, b: 0, a: 1}
-          EnumParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            enumName: HutongGames.PlayMaker.None
-            intValue: 0
-          ArrayParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: UnityEngine.Object
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams:
-        - TargetObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: UnityEngine.Object
-            value: {fileID: 8942806633710170199}
-          TargetTypeName: FIMSpace.FProceduralAnimation.RagdollAnimator
-          PropertyName: Parameters.RagdolledBlend
-          BoolParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          FloatParameter:
-            useVariable: 1
-            name: RagdollBlendAmount
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          IntParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          GameObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-          StringParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          Vector2Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0}
-          Vector3Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0}
-          RectParamater:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value:
-              serializedVersion: 2
-              x: 0
-              y: 0
-              width: 0
-              height: 0
-          QuaternionParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0, w: 0}
-          ObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: System.Single
-            value: {fileID: 0}
-          MaterialParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          TextureParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          ColorParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {r: 0, g: 0, b: 0, a: 1}
-          EnumParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            enumName: HutongGames.PlayMaker.None
-            intValue: 0
-          ArrayParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: UnityEngine.Object
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
-          setProperty: 1
-        - TargetObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: UnityEngine.Object
-            value: {fileID: 8942806633710170199}
-          TargetTypeName: FIMSpace.FProceduralAnimation.RagdollAnimator
-          PropertyName: Parameters.FreeFallRagdoll
-          BoolParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 1
-          FloatParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          IntParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          GameObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-          StringParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          Vector2Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0}
-          Vector3Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0}
-          RectParamater:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value:
-              serializedVersion: 2
-              x: 0
-              y: 0
-              width: 0
-              height: 0
-          QuaternionParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0, w: 0}
-          ObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: System.Boolean
-            value: {fileID: 0}
-          MaterialParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          TextureParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          ColorParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {r: 0, g: 0, b: 0, a: 1}
-          EnumParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            enumName: HutongGames.PlayMaker.None
-            intValue: 0
-          ArrayParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: UnityEngine.Object
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
-          setProperty: 1
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.InputSystem.InputActionReference
-          value: {fileID: -5774741125395999449, guid: 94483f8e9832ba849ae8384224f117c0,
-            type: 3}
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: RagdollBlendAmount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        - useVariable: 1
-          name: RagdollBlendAmount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0.2
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 00000000000000000100000001000100000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1100000014000000180000000700000014000000070000000700000015000000240000000100000024000000010000000f0000000f0000000f0000000f0000000f0000000f00000007000000110000001700000001000000
-        paramName:
-        - enable
-        - gameObject
-        - inputAction
-        - updateMode
-        - gameObject
-        - delivery
-        - options
-        - functionCall
-        - targetProperty
-        - everyFrame
-        - targetProperty
-        - everyFrame
-        - fromValue
-        - toValue
-        - floatVariable
-        - time
-        - speed
-        - delay
-        - easeType
-        - reverse
-        - finishEvent
-        - realTime
-        paramDataPos: 0000000000000000000000000000000001000000040000000800000000000000000000000c000000010000000d0000000000000001000000020000000300000004000000050000000e000000010000000000000012000000
-        paramByteDataSize: 00000000000000000000000004000000000000000400000004000000000000000000000001000000000000000100000000000000000000000000000000000000000000000000000004000000000000000000000001000000
-    - name: Listen
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 237
-        y: 103.796875
-        width: 105.2
-        height: 48
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: StartRagDoll
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: Ragdoll On
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      - fsmEvent:
-          name: StopRagdoll
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: Ragdoll Off
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.GetKeyDown
-        - HutongGames.PlayMaker.Actions.GetKeyDown
-        customNames:
-        - 
-        - 
-        actionEnabled: 0100
-        actionIsOpen: 0000
-        actionStartIndex: 0000000003000000
-        actionHashCodes: ff77a904ff77a904
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - StartRagDoll
-        - StopRagdoll
-        byteData: 0101000002010000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 070000001700000011000000070000001700000011000000
-        paramName:
-        - key
-        - sendEvent
-        - storeResult
-        - key
-        - sendEvent
-        - storeResult
-        paramDataPos: 000000000000000000000000040000000100000001000000
-        paramByteDataSize: 040000000000000000000000040000000000000000000000
-    - name: Wait For Input
-      description: Sends Key info as well
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 220
-        y: 272.8125
-        width: 138.4
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: StopRagdoll
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: Ragdoll Off
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.PlayerInputButtonEvents
-        - HutongGames.PlayMaker.Actions.SendEvent
-        - HutongGames.PlayMaker.Actions.SetFsmString
-        customNames:
-        - 
-        - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000070000000b000000
-        actionHashCodes: 0d4efe005e69bb0452221a02
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 8942806633760891814}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams:
-        - target: 2
-          excludeSelf:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          gameObject:
-            ownerOption: 1
-            gameObject:
-              useVariable: 0
-              name: 
-              tooltip: 
-              showInInspector: 0
-              networkSync: 0
-              value: {fileID: 8942806633760891814}
-          fsmName:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          sendToChildren:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          fsmComponent: {fileID: 0}
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: InfoText
-        - useVariable: 1
-          name: GetUpText
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          value: Press "Space" to Get Up
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.InputSystem.InputActionReference
-          value: {fileID: 8515889170333072481, guid: 94483f8e9832ba849ae8384224f117c0,
-            type: 3}
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - 
-        - StopRagdoll
-        - 
-        - InfoScaleUp
-        byteData: 010000000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 110000001700000017000000170000001400000018000000070000001f000000170000000f000000010000001400000012000000120000001200000001000000
-        paramName:
-        - isPressed
-        - isPressedEvent
-        - wasPressedThisFrame
-        - wasReleasedThisFrame
-        - gameObject
-        - inputAction
-        - updateMode
-        - eventTarget
-        - sendEvent
-        - delay
-        - everyFrame
-        - gameObject
-        - fsmName
-        - variableName
-        - setValue
-        - everyFrame
-        paramDataPos: 00000000000000000100000002000000000000000000000000000000000000000300000000000000040000000100000000000000010000000200000005000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000004000000000000000000000000000000010000000000000000000000000000000000000001000000
-    events:
-    - name: StartRagDoll
-      isSystemEvent: 0
-      isGlobal: 1
-    - name: StopRagdoll
-      isSystemEvent: 0
-      isGlobal: 1
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    - name: InfoScaleUp
-      isSystemEvent: 0
-      isGlobal: 1
-    - name: InfoScaleDown
-      isSystemEvent: 0
-      isGlobal: 1
-    globalTransitions: []
-    variables:
-      floatVariables:
-      - useVariable: 1
-        name: RagdollBlendAmount
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      intVariables: []
-      boolVariables: []
-      stringVariables:
-      - useVariable: 1
-        name: GetUpText
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: Press "Space" to Get Up
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 0000000000000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!114 &8942806633710170199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7985573676042467060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a5af6811ac446f49bc6343be723726b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Processor:
-    GeneratorParameters:
-      TargetMassOfWholeModel: 65
-      ScaleRagdoll: 1
-      DragForAllRigidbodies: 0.5
-      AngularDragForRigidbodies: 1.25
-      RigidbodiesInterpolation: 1
-      generateFists: 0
-      generateFoots: 0
-      generateShoulders: 0
-    SendCollisionEventsTo: {fileID: 0}
-    SendOnlyOnFreeFall: 1
-    AlwaysAddCollisionHelpers: 0
-    KeepCollidersOnAnimator: 0
-    ChangeAnimatorCollidersLayerTo: 11
-    RemoveOnlyTargetRagdollCollidersOnAnimator: 0
-    IgnoreAnimatorToRagdollCollision: 1
-    CheckFullBoneNamesWhenSearching: 1
-    AllowDisableCalculationsOnZeroBlend: 1
-    FreeFallRagdoll: 1
-    RagdolledBlend: 0
-    RotateToPoseForce: 0.75
-    UnitySolverIterations: 6
-    BlendOnCollision: 0
-    ConstantArmsRagdoll: 0
-    ConstantHeadRagdoll: 0
-    ConstantSpineRagdoll: 0
-    BlendingSpeed: 0.5
-    SensitiveCollision: 0
-    ConfigurableSpring: 1650
-    ConfigurableDamp: 18
-    HipsPinSpring: 4000
-    HipsPositionOffset: {x: 0, y: 0, z: 0}
-    HipsBoostMul: {x: 1, y: 1, z: 1}
-    HipsPinV2: 1
-    StandUpInFootPoint: 0
-    HeadForce: 0
-    SpineForce: 0.966
-    RightArmForce: 0
-    LeftArmForce: 0
-    LeftLegForce: 0
-    RightLegForce: 0
-    ExtendedAnimatorSync: 0
-    ReposeMode: 1
-    ReposeOnlyOnFullRagdoll: 0
-    IgnoreSelfCollision: 0
-    MassMultiplier: 1
-    SetPhysicalMaterial: {fileID: 0}
-    RemoveLimitsWhenNonFreeFall: 0
-    HideDummy: 0
-    IgnoreCollisionWith: []
-    HipsPin: 0
-    TryAnimatePelvis: 1
-    StartAfterTPose: 0
-    ResetIsKinematic: 0
-    Persistent: 0
-    AnimatePhysics: 1
-    AddNamePrefix: 1
-    FixRootInPelvis: 0
-    Calibrate: 0
-    BonesSetupMode: 0
-    CustomLimbsBonesChains:
-    - ChainName: Spine
-      BoneSetups:
-      - t: {fileID: 7985573674716171782}
-        ColliderType: 2
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.18
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      - t: {fileID: 7985573675428700005}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.18
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      - t: {fileID: 7985573675661149706}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.09
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      BlendOnCollisions: 1
-      Detach: 0
-      ConstantRagdoll: 0
-      MusclesForce: 1
-    - ChainName: Left Arm
-      BoneSetups:
-      - t: {fileID: 7985573674873357214}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.015
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      - t: {fileID: 7985573674841017255}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.011
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      BlendOnCollisions: 1
-      Detach: 0
-      ConstantRagdoll: 0
-      MusclesForce: 1
-    - ChainName: Right Arm
-      BoneSetups:
-      - t: {fileID: 7985573675969496740}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.015
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      - t: {fileID: 7985573674479900117}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.011
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      BlendOnCollisions: 1
-      Detach: 0
-      ConstantRagdoll: 0
-      MusclesForce: 1
-    - ChainName: Left Leg
-      BoneSetups:
-      - t: {fileID: 7985573675765442014}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.1
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      - t: {fileID: 7985573674566542138}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.07
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      BlendOnCollisions: 1
-      Detach: 0
-      ConstantRagdoll: 0
-      MusclesForce: 1
-    - ChainName: Right Leg
-      BoneSetups:
-      - t: {fileID: 7985573676199903472}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.1
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      - t: {fileID: 7985573675064199023}
-        ColliderType: 0
-        ColliderMesh: {fileID: 0}
-        MassPercentage: 0.07
-        MuscleForceMultiplier: 1
-        Generator_ScaleMul: 1
-        Generator_LengthMul: 1
-        Generator_LengthOffset: 0
-        Generator_BoxScale: {x: 1, y: 1, z: 1}
-        Generator_Offset: {x: 0, y: 0, z: 0}
-        Generator_OverrideCapsuleDir: -1
-        Generator_Extra: 0
-      BlendOnCollisions: 1
-      Detach: 0
-      ConstantRagdoll: 0
-      MusclesForce: 1
-    _pelvisSetupBone:
-      t: {fileID: 7985573675526348206}
-      ColliderType: 0
-      ColliderMesh: {fileID: 0}
-      MassPercentage: 0.18
-      MuscleForceMultiplier: 1
-      Generator_ScaleMul: 1
-      Generator_LengthMul: 1
-      Generator_LengthOffset: 0
-      Generator_BoxScale: {x: 1, y: 1, z: 1}
-      Generator_Offset: {x: 0, y: 0, z: 0}
-      Generator_OverrideCapsuleDir: -1
-      Generator_Extra: 0
-    _EditorCategory: 1
-    _EditorDrawBones: 1
-    _EditorDrawHumanoidExtra: 0
-    _EditorDrawGenerator: 1
-    _EditorDrawMore: 1
-    DebugV3: {x: 0, y: 0, z: 0}
-    ObjectWithAnimator: {fileID: 7985573676042467058}
-    RagdollDummyBase: {fileID: 8942806633363500365}
-    RagdollDummyRoot: {fileID: 8942806633706735850}
-    RagdollDummySkeleton: {fileID: 8942806633807612516}
-    RootInParent: {fileID: 7985573675526348206}
-    PelvisInDummy: {fileID: 8942806633807612516}
-    RagdollDummyAnimator: {fileID: 7985573676042467058}
-    _helpChestName: Spine_03_jnt
-    usePreGeneratedDummy: 1
-    BaseTransform: {fileID: 7985573676042467058}
-    Pelvis: {fileID: 7985573675526348206}
-    SpineStart: {fileID: 7985573674716171782}
-    Chest: {fileID: 7985573675428700005}
-    Head: {fileID: 7985573675661149706}
-    LeftUpperArm: {fileID: 7985573674873357214}
-    LeftForeArm: {fileID: 7985573674841017255}
-    RightUpperArm: {fileID: 7985573675969496740}
-    RightForeArm: {fileID: 7985573674479900117}
-    LeftUpperLeg: {fileID: 7985573675765442014}
-    LeftLowerLeg: {fileID: 7985573674566542138}
-    RightUpperLeg: {fileID: 7985573676199903472}
-    RightLowerLeg: {fileID: 7985573675064199023}
-    LeftFist: {fileID: 0}
-    RightFist: {fileID: 0}
-    LeftFoot: {fileID: 0}
-    RightFoot: {fileID: 0}
-    LeftShoulder: {fileID: 0}
-    RightShoulder: {fileID: 0}
-    PelvisLocalRight: {x: 0, y: 0, z: 0}
-    PelvisLocalUp: {x: 0, y: 0, z: 0}
-    PelvisLocalForward: {x: 0, y: 0, z: 0}
-    PelvisToBase: {x: 0, y: 0, z: 0}
-    LForearmToHand: {x: 0, y: 0, z: 0}
-    RForearmToHand: {x: 0, y: 0, z: 0}
-    HeadToTip: {x: 0, y: 0, z: 0}
-  ObjectWithAnimator: {fileID: 7985573676042467058}
-  RootBone: {fileID: 7985573675526348206}
-  CustomRagdollAnimator: {fileID: 0}
-  AutoDestroy: 1
-  PreGenerateDummy: 1
-  TargetParentForRagdollDummy: {fileID: 7985573676042467058}
---- !u!114 &8942806633710170146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7985573676042467060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3d8f43ae320672469f9742aa12f793b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ragdoll: {fileID: 8942806633710170199}
-  PowerMul: 25
-  ImpactDuration: 0.485
-  FadeMusclesTo: 0.11
-  FadeMusclesDuration: 0.688
-  snapToGroundLayer:
-    serializedVersion: 2
-    m_Bits: 513
-  AutoGetUp: 0
-  GetUpVersion2: 1
-  TestPlayAnimOnRagdoll: Fall
-  CanGetUp: 0
-  LimbsVelocity: {x: 0, y: 0, z: 0}
-  LimbsVelocityMagn: 0
---- !u!114 &8942806633710170160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7985573676042467060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: PlayerHealth
-    startState: Init
-    states:
-    - name: Init
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 54.84375
-        y: 126
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: DisplayHealth
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.SetIntValue
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 603dd905
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 3
-        - useVariable: 1
-          name: HealthMax
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          value: 3
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 00
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 100000001000000001000000
-        paramName:
-        - intVariable
-        - intValue
-        - everyFrame
-        paramDataPos: 000000000100000000000000
-        paramByteDataSize: 000000000000000001000000
-    - name: TakeDamage
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 483
-        y: 57.796875
-        width: 109.2
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: DisplayHealth
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.IntSubtract
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 31e5da02
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 3
-        - useVariable: 1
-          name: DamageAmount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 0000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 10000000100000000100000001000000
-        paramName:
-        - intVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        paramDataPos: 00000000010000000000000001000000
-        paramByteDataSize: 00000000000000000100000001000000
-    - name: DisplayHealth
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 281
-        y: 142.79688
-        width: 117.2
-        height: 64
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: DamagePlayer
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: TakeDamage
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      - fsmEvent:
-          name: HealPlayer
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: RecoverHealth
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      - fsmEvent:
-          name: Death
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: Death
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.IntClamp
-        - HutongGames.PlayMaker.Actions.IntCompare
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2181e80209faa102
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 3
-        - useVariable: 1
-          name: HealthMin
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: HealthMax
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          value: 3
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 3
-        - useVariable: 1
-          name: HealthMin
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          value: 0
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Death
-        - 
-        - 
-        byteData: 0000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 10000000100000001000000001000000100000001000000017000000170000001700000001000000
-        paramName:
-        - intVariable
-        - minValue
-        - maxValue
-        - everyFrame
-        - integer1
-        - integer2
-        - equal
-        - lessThan
-        - greaterThan
-        - everyFrame
-        paramDataPos: 00000000010000000200000000000000030000000400000000000000010000000200000001000000
-        paramByteDataSize: 00000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: RecoverHealth
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 502
-        y: 159.79688
-        width: 117.2
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: DisplayHealth
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.IntAdd
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 603dd905
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 3
-        - useVariable: 1
-          name: RecoveryAmount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 00
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 100000001000000001000000
-        paramName:
-        - intVariable
-        - add
-        - everyFrame
-        paramDataPos: 000000000100000000000000
-        paramByteDataSize: 000000000000000001000000
-    - name: Death
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 485.89844
-        y: 276.02344
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    events:
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    - name: DamagePlayer
-      isSystemEvent: 0
-      isGlobal: 1
-    - name: Death
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: HealPlayer
-      isSystemEvent: 0
-      isGlobal: 1
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables:
-      - useVariable: 1
-        name: Health
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 3
-      - useVariable: 1
-        name: HealthMin
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: HealthMax
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 3
-      - useVariable: 1
-        name: DamageAmount
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: RecoveryAmount
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 000000000300000004000000
     keepDelayedEventsOnStateExit: 0
     preprocessed: 0
     ExposedEvents: []
