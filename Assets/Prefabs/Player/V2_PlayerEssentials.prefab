@@ -18082,6 +18082,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1018390873774750507, guid: dbdb5724dbe209c4c8db74825c9f3f5d,
+        type: 3}
+      propertyPath: m_Mass
+      value: 11.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1018390873774750509, guid: dbdb5724dbe209c4c8db74825c9f3f5d,
         type: 3}
       propertyPath: jumpTimer
@@ -20884,6 +20889,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetGravity
         - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
         - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
+        - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.SendMessage
         - HutongGames.PlayMaker.Actions.SendEvent
@@ -20897,13 +20903,22 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101010101
-        actionIsOpen: 0101010101010101
-        actionStartIndex: 00000000060000000b0000000f0000001300000015000000190000001d000000
-        actionHashCodes: ca51e9006f1d0b04aee3d801aee3d8015ac8520491d45a005e69bb04bd9b4401
+        - 
+        actionEnabled: 010101010101010101
+        actionIsOpen: 010101010101010101
+        actionStartIndex: 00000000060000000b0000000f0000001300000017000000190000001d00000021000000
+        actionHashCodes: ca51e9006f1d0b04aee3d801aee3d801aee3d8015ac8520491d45a005e69bb04bd9b4401
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -21252,6 +21267,14 @@ MonoBehaviour:
           typeName: UnityEngine.InputSystem.InputActionReference
           value: {fileID: 8515889170333072481, guid: 94483f8e9832ba849ae8384224f117c0,
             type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.InputSystem.InputActionReference
+          value: {fileID: -464431348975616443, guid: 94483f8e9832ba849ae8384224f117c0,
+            type: 3}
         fsmVarParams:
         - variableName: 
           objectType: 
@@ -21359,6 +21382,12 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 0
         fsmVector2Params: []
         fsmVector3Params:
@@ -21374,13 +21403,13 @@ MonoBehaviour:
         stringParams:
         - InfoScaleDown
         - 
-        byteData: 0000000000000000000000010000000001000000001500000000
+        byteData: 000000000000000000000000000000010000000001000000001500000000
         arrayParamSizes: 00000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 18000000120000000c0000002700000001000000010000001c0000000f0000000f0000000f0000000100000011000000140000001800000007000000110000001400000018000000070000002400000001000000140000000700000007000000150000001f000000170000000f000000010000000f0000000f0000000f0000000f0000000f0000000f00000007000000110000001700000001000000
+        paramDataType: 18000000120000000c0000002700000001000000010000001c0000000f0000000f0000000f000000010000001100000014000000180000000700000011000000140000001800000007000000110000001400000018000000070000002400000001000000140000000700000007000000150000001f000000170000000f000000010000000f0000000f0000000f0000000f0000000f0000000f00000007000000110000001700000001000000
         paramName:
         - behaviour
         - methodName
@@ -21393,6 +21422,10 @@ MonoBehaviour:
         - y
         - z
         - everyFrame
+        - enable
+        - gameObject
+        - inputAction
+        - updateMode
         - enable
         - gameObject
         - inputAction
@@ -21421,8 +21454,8 @@ MonoBehaviour:
         - reverse
         - finishEvent
         - realTime
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000000000000100000002000000020000000000000000000000010000000300000001000000010000000200000007000000000000000b000000020000000c00000010000000000000000000000000000000030000001400000004000000050000000600000007000000080000000900000015000000020000000100000019000000
-        paramByteDataSize: 000000000000000000000000000000000100000001000000000000000000000000000000000000000100000000000000000000000000000004000000000000000000000000000000040000000000000001000000000000000400000004000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000004000000000000000000000001000000
+        paramDataPos: 000000000000000000000000000000000000000001000000000000000000000001000000020000000200000000000000000000000100000003000000010000000100000002000000070000000200000002000000030000000b000000000000000f00000003000000100000001400000000000000000000000000000003000000180000000400000005000000060000000700000008000000090000001900000003000000010000001d000000
+        paramByteDataSize: 00000000000000000000000000000000010000000100000000000000000000000000000000000000010000000000000000000000000000000400000000000000000000000000000004000000000000000000000000000000040000000000000001000000000000000400000004000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000004000000000000000000000001000000
     - name: Ragdoll On
       description: 
       colorIndex: 0
@@ -21449,6 +21482,7 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
         - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
+        - HutongGames.PlayMaker.Actions.PlayerInputEnableAction
         - HutongGames.PlayMaker.Actions.SendMessage
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.SetProperty
@@ -21462,13 +21496,22 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 01010101010101
-        actionStartIndex: 0000000004000000080000000c0000000e000000100000001a000000
-        actionHashCodes: aee3d801aee3d80191d45a005ac852045ac85204bd9b44016f1d0b04
+        - 
+        actionEnabled: 0101010101010101
+        actionIsOpen: 0101010101010101
+        actionStartIndex: 0000000004000000080000000c0000001000000012000000140000001e000000
+        actionHashCodes: aee3d801aee3d801aee3d80191d45a005ac852045ac85204bd9b44016f1d0b04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -21902,6 +21945,14 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: UnityEngine.InputSystem.InputActionReference
+          value: {fileID: -464431348975616443, guid: 94483f8e9832ba849ae8384224f117c0,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.InputSystem.InputActionReference
           value: {fileID: 8515889170333072481, guid: 94483f8e9832ba849ae8384224f117c0,
             type: 3}
         fsmVarParams: []
@@ -21982,6 +22033,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params:
         - useVariable: 0
@@ -21995,13 +22052,17 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 000000000000000000000000010000000001010000000000
+        byteData: 00000000000000000000000000000000010000000001010000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 110000001400000018000000070000001100000014000000180000000700000014000000070000000700000015000000240000000100000024000000010000000f0000000f0000000f0000000f0000000f0000000f000000070000001100000017000000010000001c0000000f0000000f0000000f00000001000000
+        paramDataType: 11000000140000001800000007000000110000001400000018000000070000001100000014000000180000000700000014000000070000000700000015000000240000000100000024000000010000000f0000000f0000000f0000000f0000000f0000000f000000070000001100000017000000010000001c0000000f0000000f0000000f00000001000000
         paramName:
+        - enable
+        - gameObject
+        - inputAction
+        - updateMode
         - enable
         - gameObject
         - inputAction
@@ -22033,8 +22094,8 @@ MonoBehaviour:
         - y
         - z
         - everyFrame
-        paramDataPos: 000000000000000000000000000000000100000001000000010000000400000002000000080000000c0000000000000000000000100000000100000011000000000000000100000002000000030000000400000005000000120000000200000000000000160000000000000006000000070000000800000017000000
-        paramByteDataSize: 00000000000000000000000004000000000000000000000000000000040000000000000004000000040000000000000000000000010000000000000001000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000000000000000000000100000001000000010000000400000002000000020000000200000008000000030000000c0000001000000000000000000000001400000001000000150000000000000001000000020000000300000004000000050000001600000003000000000000001a000000000000000600000007000000080000001b000000
+        paramByteDataSize: 0000000000000000000000000400000000000000000000000000000004000000000000000000000000000000040000000000000004000000040000000000000000000000010000000000000001000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000001000000
     - name: Wait For Input
       description: Sends Key info as well
       colorIndex: 0

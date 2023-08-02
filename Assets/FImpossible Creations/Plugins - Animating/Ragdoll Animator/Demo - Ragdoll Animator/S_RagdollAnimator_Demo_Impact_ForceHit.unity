@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,8 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 0b8febcf7726d5b4c86344daa4d2ae3f,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,6 +119,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -161,6 +164,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &478554129
 Canvas:
   m_ObjectHideFlags: 0
@@ -192,6 +196,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2042854459}
   m_Father: {fileID: 0}
@@ -212,6 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -278,6 +284,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &705507995
@@ -290,10 +297,31 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +402,7 @@ Transform:
   m_LocalRotation: {x: 0.090283945, y: 0.004787947, z: -0.00042545184, w: 0.9959045}
   m_LocalPosition: {x: 0, y: 3.0404174, z: -6.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -418,6 +447,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.2137635, y: -3.0893226, z: 10.707348}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -464,6 +494,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.2137635, y: -3.0893226, z: 10.707348}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -511,14 +542,16 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 886db749e5bd3d84d8963e3da9f2311b, type: 2}
+  - {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -539,6 +572,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1306730237
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -557,6 +591,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 40, y: 1, z: 40}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -604,14 +639,16 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 886db749e5bd3d84d8963e3da9f2311b, type: 2}
+  - {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -632,6 +669,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1765762076
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -650,6 +688,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 19.51}
   m_LocalScale: {x: 40, y: 1, z: 40}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -720,17 +759,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c0f7534fac188d24cbbc51a82b406437, type: 2}
+      objectReference: {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
     - target: {fileID: -4149837100426168171, guid: 8a6d4620aa5f06f4491a1ed788ecf6f4,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 1f8dd0ecc1724bf419d8c58c97e42f62, type: 2}
+      objectReference: {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
     - target: {fileID: -4149837100426168171, guid: 8a6d4620aa5f06f4491a1ed788ecf6f4,
         type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: bed002acb5eec284f805776550bf0706, type: 2}
+      objectReference: {fileID: 2100000, guid: 1bbe7a0466214514b84c77460cd6ddd8, type: 2}
     - target: {fileID: 919132149155446097, guid: 8a6d4620aa5f06f4491a1ed788ecf6f4,
         type: 3}
       propertyPath: m_Name
@@ -939,47 +978,8 @@ MonoBehaviour:
     ChangeAnimatorCollidersLayerTo: 0
     RemoveOnlyTargetRagdollCollidersOnAnimator: 0
     IgnoreAnimatorToRagdollCollision: 1
-    _EditorCategory: 0
-    _EditorDrawBones: 1
-    _EditorDrawHumanoidExtra: 0
-    _EditorDrawGenerator: 1
-    _EditorDrawMore: 0
-    DebugV3: {x: 0, y: 0, z: 0}
-    ObjectWithAnimator: {fileID: 0}
-    RagdollDummyBase: {fileID: 0}
-    RagdollDummyRoot: {fileID: 0}
-    RagdollDummySkeleton: {fileID: 0}
-    RootInParent: {fileID: 0}
-    PelvisInDummy: {fileID: 0}
-    RagdollDummyAnimator: {fileID: 0}
-    _helpChestName: 
-    usePreGeneratedDummy: 0
-    BaseTransform: {fileID: 1866904767}
-    Pelvis: {fileID: 1866904766}
-    SpineStart: {fileID: 1866904765}
-    Chest: {fileID: 1866904764}
-    Head: {fileID: 1866904762}
-    LeftUpperArm: {fileID: 1866904761}
-    LeftForeArm: {fileID: 1866904758}
-    RightUpperArm: {fileID: 1866904757}
-    RightForeArm: {fileID: 1866904752}
-    LeftUpperLeg: {fileID: 1866904751}
-    LeftLowerLeg: {fileID: 1866904748}
-    RightUpperLeg: {fileID: 1866904747}
-    RightLowerLeg: {fileID: 1866904743}
-    LeftFist: {fileID: 0}
-    RightFist: {fileID: 0}
-    LeftFoot: {fileID: 0}
-    RightFoot: {fileID: 0}
-    LeftShoulder: {fileID: 0}
-    RightShoulder: {fileID: 0}
-    PelvisLocalRight: {x: 0, y: 0, z: 0}
-    PelvisLocalUp: {x: 0, y: 0, z: 0}
-    PelvisLocalForward: {x: 0, y: 0, z: 0}
-    PelvisToBase: {x: 0, y: 0, z: 0}
-    LForearmToHand: {x: 0, y: 0, z: 0}
-    RForearmToHand: {x: 0, y: 0, z: 0}
-    HeadToTip: {x: 0, y: 0, z: 0}
+    CheckFullBoneNamesWhenSearching: 0
+    AllowDisableCalculationsOnZeroBlend: 0
     FreeFallRagdoll: 0
     RagdolledBlend: 1
     RotateToPoseForce: 0.383
@@ -1036,6 +1036,47 @@ MonoBehaviour:
       Generator_Offset: {x: 0, y: 0, z: 0}
       Generator_OverrideCapsuleDir: -1
       Generator_Extra: 0
+    _EditorCategory: 2
+    _EditorDrawBones: 1
+    _EditorDrawHumanoidExtra: 0
+    _EditorDrawGenerator: 1
+    _EditorDrawMore: 0
+    DebugV3: {x: 0, y: 0, z: 0}
+    ObjectWithAnimator: {fileID: 0}
+    RagdollDummyBase: {fileID: 0}
+    RagdollDummyRoot: {fileID: 0}
+    RagdollDummySkeleton: {fileID: 0}
+    RootInParent: {fileID: 0}
+    PelvisInDummy: {fileID: 0}
+    RagdollDummyAnimator: {fileID: 0}
+    _helpChestName: 
+    usePreGeneratedDummy: 0
+    BaseTransform: {fileID: 1866904767}
+    Pelvis: {fileID: 1866904766}
+    SpineStart: {fileID: 1866904765}
+    Chest: {fileID: 1866904764}
+    Head: {fileID: 1866904762}
+    LeftUpperArm: {fileID: 1866904761}
+    LeftForeArm: {fileID: 1866904758}
+    RightUpperArm: {fileID: 1866904757}
+    RightForeArm: {fileID: 1866904752}
+    LeftUpperLeg: {fileID: 1866904751}
+    LeftLowerLeg: {fileID: 1866904748}
+    RightUpperLeg: {fileID: 1866904747}
+    RightLowerLeg: {fileID: 1866904743}
+    LeftFist: {fileID: 0}
+    RightFist: {fileID: 0}
+    LeftFoot: {fileID: 0}
+    RightFoot: {fileID: 0}
+    LeftShoulder: {fileID: 0}
+    RightShoulder: {fileID: 0}
+    PelvisLocalRight: {x: 0, y: 0, z: 0}
+    PelvisLocalUp: {x: 0, y: 0, z: 0}
+    PelvisLocalForward: {x: 0, y: 0, z: 0}
+    PelvisToBase: {x: 0, y: 0, z: 0}
+    LForearmToHand: {x: 0, y: 0, z: 0}
+    RForearmToHand: {x: 0, y: 0, z: 0}
+    HeadToTip: {x: 0, y: 0, z: 0}
   ObjectWithAnimator: {fileID: 1866904767}
   RootBone: {fileID: 1866904742}
   CustomRagdollAnimator: {fileID: 0}
@@ -1064,6 +1105,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904744}
   m_ConnectedBody: {fileID: 1866904771}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0.00000012088168, y: -0.00000025429318, z: -1}
   m_AutoConfigureConnectedAnchor: 1
@@ -1189,6 +1231,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904745}
   m_ConnectedBody: {fileID: 1866904774}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0.0000000868948, y: -0.000000087422784, z: -1}
   m_AutoConfigureConnectedAnchor: 1
@@ -1344,6 +1387,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904749}
   m_ConnectedBody: {fileID: 1866904779}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -0.00000006825368, y: 0.000000107665244, z: -1}
   m_AutoConfigureConnectedAnchor: 1
@@ -1469,6 +1513,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904750}
   m_ConnectedBody: {fileID: 1866904774}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -0.0000000868948, y: 0.00000008742279, z: -1}
   m_AutoConfigureConnectedAnchor: 1
@@ -1594,6 +1639,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904753}
   m_ConnectedBody: {fileID: 1866904785}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -0.44125578, y: -0.19217825, z: 0.8765618}
   m_AutoConfigureConnectedAnchor: 1
@@ -1719,6 +1765,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904754}
   m_ConnectedBody: {fileID: 1866904788}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0.120111465, y: -0.12836777, z: 0.98442614}
   m_AutoConfigureConnectedAnchor: 1
@@ -1844,6 +1891,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904755}
   m_ConnectedBody: {fileID: 1866904791}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: -0.0000000070580017, z: 0.0000000047869997}
   m_AutoConfigureConnectedAnchor: 1
@@ -1969,6 +2017,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904756}
   m_ConnectedBody: {fileID: 1866904774}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: -0.0000000070580017, z: 0.000000004787}
   m_AutoConfigureConnectedAnchor: 1
@@ -2094,6 +2143,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904759}
   m_ConnectedBody: {fileID: 1866904797}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0.4315558, y: 0.19533868, z: -0.880683}
   m_AutoConfigureConnectedAnchor: 1
@@ -2219,6 +2269,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904760}
   m_ConnectedBody: {fileID: 1866904788}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -0.120111555, y: 0.1283679, z: -0.9844262}
   m_AutoConfigureConnectedAnchor: 1
@@ -2344,6 +2395,7 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866904763}
   m_ConnectedBody: {fileID: 1866904788}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: -0.000000036667196, z: -0.0000015146888}
   m_AutoConfigureConnectedAnchor: 1
@@ -2459,6 +2511,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07406112ac7e8f14485443a15e85073c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ImpactPower: 1
+  FallAtPower: 15
+  DismemberAtPower: 10000
 --- !u!1 &2042854458
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,6 +2543,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 478554130}
   m_RootOrder: 0
@@ -2527,6 +2583,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2588,6 +2645,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.2137635, y: -3.0893226, z: 10.707348}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
