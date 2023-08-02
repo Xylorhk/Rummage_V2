@@ -20854,26 +20854,26 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: RagdollController
-    startState: Listen
+    startState: Ragdoll Off
     states:
     - name: Ragdoll Off
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 54
-        y: 186
-        width: 100
+        x: 51.898438
+        y: 100.84375
+        width: 105.2
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Listen
+          name: StartRagDoll
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: Ragdoll On
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -21373,7 +21373,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - InfoScaleDown
-        - FINISHED
+        - 
         byteData: 0000000000000000000000010000000001000000001500000000
         arrayParamSizes: 00000000
         arrayParamTypes:
@@ -21428,8 +21428,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 416.70312
-        y: 187.11719
+        x: 384.70312
+        y: 107.11719
         width: 100
         height: 32
       isBreakpoint: 0
@@ -22035,107 +22035,13 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000000000000000000000000000100000001000000010000000400000002000000080000000c0000000000000000000000100000000100000011000000000000000100000002000000030000000400000005000000120000000200000000000000160000000000000006000000070000000800000017000000
         paramByteDataSize: 00000000000000000000000004000000000000000000000000000000040000000000000004000000040000000000000000000000010000000000000001000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000001000000
-    - name: Listen
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 237
-        y: 103.796875
-        width: 105.2
-        height: 48
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: StartRagDoll
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: Ragdoll On
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      - fsmEvent:
-          name: StopRagdoll
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: Ragdoll Off
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.GetKeyDown
-        - HutongGames.PlayMaker.Actions.GetKeyDown
-        customNames:
-        - 
-        - 
-        actionEnabled: 0000
-        actionIsOpen: 0000
-        actionStartIndex: 0000000003000000
-        actionHashCodes: ff77a904ff77a904
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - StartRagDoll
-        - StopRagdoll
-        byteData: 0101000002010000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 070000001700000011000000070000001700000011000000
-        paramName:
-        - key
-        - sendEvent
-        - storeResult
-        - key
-        - sendEvent
-        - storeResult
-        paramDataPos: 000000000000000000000000040000000100000001000000
-        paramByteDataSize: 040000000000000000000000040000000000000000000000
     - name: Wait For Input
       description: Sends Key info as well
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 220
-        y: 272.8125
+        x: 188
+        y: 192.8125
         width: 138.4
         height: 32
       isBreakpoint: 0
@@ -22239,7 +22145,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: Press "Space" to Get Up
+          value: Press "E" to Get Up
         fsmObjectParams:
         - useVariable: 0
           name: 

@@ -56,7 +56,7 @@ namespace FIMSpace.RagdollAnimatorDemo
             }
 
 
-            if (Input.GetMouseButtonDown(0))
+           /* if (Input.GetMouseButtonDown(0))
             {
                 Ray r = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
@@ -84,7 +84,7 @@ namespace FIMSpace.RagdollAnimatorDemo
                     }
                 }
 
-            }
+            }*/
 
             CanGetUp = ragdoll.Parameters.User_CanGetUp(null, false);
             LimbsVelocity = ragdoll.Parameters.User_GetSpineLimbsVelocity();
