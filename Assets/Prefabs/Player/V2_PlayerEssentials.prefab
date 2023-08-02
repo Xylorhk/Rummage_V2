@@ -10626,7 +10626,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: UnityEngine.InputSystem.InputActionReference
-          value: {fileID: 7308794441712065807, guid: 94483f8e9832ba849ae8384224f117c0,
+          value: {fileID: -5846581958400816411, guid: 94483f8e9832ba849ae8384224f117c0,
             type: 3}
         fsmVarParams: []
         fsmArrayParams: []
