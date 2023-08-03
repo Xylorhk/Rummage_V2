@@ -17,7 +17,7 @@ MonoBehaviour:
   FogFactorMultiplier: 1.5
   FogStartDepth: 0
   FogEndDepth: 0
-  FogColor: {r: 0.3773585, g: 0.2513113, b: 0.16162334, a: 1}
+  FogColor: {r: 0.07066571, g: 0.07927439, b: 0.09433961, a: 1}
   FogEmissionColor: {r: 0, g: 0, b: 0, a: 1}
   FogGradientColor:
     serializedVersion: 2
@@ -108,7 +108,7 @@ MonoBehaviour:
     m_NumAlphaKeys: 4
   FogMinShadow: 0.363
   MaxFogFactor: 1
-  FogNoiseScale: 0.152
+  FogNoiseScale: 0.02
   FogNoiseAdder: 0.53
   FogNoiseMultiplier: 1.15
   FogNoiseVelocity: {x: -15, y: 20, z: -40}

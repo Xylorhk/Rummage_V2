@@ -57,7 +57,7 @@ Material:
     - _WeatherMakerFogFactorMax: 1
     - _WeatherMakerFogMode: 3
     - _WeatherMakerFogNoiseMultiplier: 1.15
-    - _WeatherMakerFogNoiseScale: 0.152
+    - _WeatherMakerFogNoiseScale: 0.02
     - _WeatherMakerFogPercentage: 0.9
     m_Colors:
     - _FogBoxMax: {r: 324.8, g: 24, b: 58, a: 0}
@@ -71,8 +71,7 @@ Material:
     - _WeatherMakerFogBoxMaxDir: {r: 0, g: 0, b: 0, a: 0}
     - _WeatherMakerFogBoxMin: {r: -8, g: -1, b: 12, a: 0}
     - _WeatherMakerFogBoxMinDir: {r: 0, g: 0, b: 0, a: 0}
-    - _WeatherMakerFogColor: {r: 0.3773585, g: 0.2513113, b: 0.16162334, a: 1}
-    - _WeatherMakerFogNoiseVelocity: {r: -102.82236, g: 137.09657, b: -274.19315,
-        a: 0}
+    - _WeatherMakerFogColor: {r: 0.07066571, g: 0.07927439, b: 0.09433961, a: 1}
+    - _WeatherMakerFogNoiseVelocity: {r: -412.83548, g: 550.4494, b: -1100.8988, a: 0}
     - _WeatherMakerFogVolumePower: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

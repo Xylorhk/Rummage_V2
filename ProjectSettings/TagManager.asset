@@ -11,6 +11,7 @@ TagManager:
   - WorldMover
   - ColliderStreamerManager
   - Manager
+  - Ragdoll
   layers:
   - Default
   - TransparentFX

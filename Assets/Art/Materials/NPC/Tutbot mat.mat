@@ -23,7 +23,6 @@ Material:
   - _MK_OUTLINE_HULL_CLIP
   - _MK_PBS_MAP_0
   - _MK_RECEIVE_SHADOWS
-  - _MK_RIM_SPLIT
   - _MK_SPECULAR_ISOTROPIC
   - _MK_WRAPPED_DIFFUSE
   m_InvalidKeywords:
@@ -262,7 +261,7 @@ Material:
     - _LightTransmissionSmoothness: 0.5
     - _LightTransmissionThresholdOffset: 0.25
     - _Metallic: 0
-    - _NormalMapIntensity: 3.5
+    - _NormalMapIntensity: 2.5
     - _OcclusionMapIntensity: 1
     - _OcclusionStrength: 1
     - _OptionsTab: 1
@@ -278,7 +277,7 @@ Material:
     - _ReceiveShadows: 1
     - _RenderFace: 2
     - _RenderPriority: 3000
-    - _Rim: 2
+    - _Rim: 0
     - _RimSize: 5
     - _RimSmoothness: 0.5
     - _RimThresholdOffset: 0.25
