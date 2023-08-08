@@ -37084,6 +37084,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5457458184833126481, guid: 13113250c0202e84da4325b74b15411b,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[4].value
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457458184833126481, guid: 13113250c0202e84da4325b74b15411b,
+        type: 3}
+      propertyPath: fsm.states.Array.data[3].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7985573676042467058, guid: 13113250c0202e84da4325b74b15411b,
         type: 3}
       propertyPath: m_LocalPosition.x
