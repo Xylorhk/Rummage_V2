@@ -37086,11 +37086,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5457458184833126481, guid: 13113250c0202e84da4325b74b15411b,
         type: 3}
-      propertyPath: fsm.variables.floatVariables.Array.data[4].value
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457458184833126481, guid: 13113250c0202e84da4325b74b15411b,
-        type: 3}
       propertyPath: fsm.states.Array.data[3].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 0}
@@ -37162,7 +37157,7 @@ PrefabInstance:
     - target: {fileID: 8847610018900711313, guid: 13113250c0202e84da4325b74b15411b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000030517578
+      value: 0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 9039229305432882523, guid: 13113250c0202e84da4325b74b15411b,
         type: 3}
@@ -37184,7 +37179,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8942806633706735851, guid: 13113250c0202e84da4325b74b15411b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 13113250c0202e84da4325b74b15411b, type: 3}
 --- !u!1 &1571163373
 GameObject:
