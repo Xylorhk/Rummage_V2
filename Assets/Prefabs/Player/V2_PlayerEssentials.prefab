@@ -431,7 +431,7 @@ MonoBehaviour:
       - fsmEvent:
           name: Return
           isSystemEvent: 0
-          isGlobal: 1
+          isGlobal: 0
         toState: Listen
         linkStyle: 0
         linkConstraint: 0
@@ -613,7 +613,7 @@ MonoBehaviour:
       - fsmEvent:
           name: Return
           isSystemEvent: 0
-          isGlobal: 1
+          isGlobal: 0
         toState: Listen
         linkStyle: 0
         linkConstraint: 0
@@ -2069,7 +2069,7 @@ MonoBehaviour:
       isGlobal: 1
     - name: Return
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: InfoScaleUp
       isSystemEvent: 0
       isGlobal: 1
@@ -2152,7 +2152,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -5631,7 +5631,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -5667,7 +5667,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &8942806633852329796
 GameObject:
   m_ObjectHideFlags: 0
@@ -7986,7 +7986,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 0300000004000000
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -8328,7 +8328,7 @@ MonoBehaviour:
       isGlobal: 1
     - name: Return
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
@@ -8380,7 +8380,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -11183,7 +11183,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -11212,7 +11212,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 0
+    handleLateUpdate: 1
     handleApplicationEvents: 0
     handleUiEvents: 0
     handleLegacyNetworking: 0
@@ -13900,6 +13900,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6908967303527337573, guid: 88536e6caf29f214c9b7f837e3ba1a68,
         type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908967303527337573, guid: 88536e6caf29f214c9b7f837e3ba1a68,
+        type: 3}
       propertyPath: fsm.events.Array.size
       value: 11
       objectReference: {fileID: 0}
@@ -14021,7 +14026,7 @@ PrefabInstance:
     - target: {fileID: 6908967303527337573, guid: 88536e6caf29f214c9b7f837e3ba1a68,
         type: 3}
       propertyPath: fsm.events.Array.data[7].isGlobal
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6908967303527337573, guid: 88536e6caf29f214c9b7f837e3ba1a68,
         type: 3}
@@ -17002,7 +17007,7 @@ PrefabInstance:
     - target: {fileID: 6908967303527337573, guid: 88536e6caf29f214c9b7f837e3ba1a68,
         type: 3}
       propertyPath: fsm.states.Array.data[7].transitions.Array.data[1].fsmEvent.isGlobal
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6908967303527337573, guid: 88536e6caf29f214c9b7f837e3ba1a68,
         type: 3}
@@ -17032,7 +17037,7 @@ PrefabInstance:
     - target: {fileID: 6908967303527337573, guid: 88536e6caf29f214c9b7f837e3ba1a68,
         type: 3}
       propertyPath: fsm.states.Array.data[9].transitions.Array.data[0].fsmEvent.isGlobal
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6908967303527337573, guid: 88536e6caf29f214c9b7f837e3ba1a68,
         type: 3}

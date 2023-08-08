@@ -97,7 +97,6 @@ MonoBehaviour:
   - Press
   - PopulateInventory
   - ClearArray
-  - Return
   - DisableCanvas
   - GetNext
   - DropItem

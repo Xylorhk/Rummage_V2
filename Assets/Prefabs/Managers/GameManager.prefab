@@ -842,7 +842,7 @@ MonoBehaviour:
       isGlobal: 1
     - name: Return
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: InventoryRemoveItem
       isSystemEvent: 0
       isGlobal: 1
@@ -961,7 +961,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 030000000500000007000000
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1

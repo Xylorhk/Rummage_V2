@@ -112,6 +112,7 @@ GameObject:
   - component: {fileID: 6190654927782912358}
   - component: {fileID: 6190654927782912352}
   - component: {fileID: 2367334905581501948}
+  - component: {fileID: 5433953328881656764}
   m_Layer: 0
   m_Name: Piston
   m_TagString: Untagged
@@ -504,7 +505,7 @@ MonoBehaviour:
       - fsmEvent:
           name: Return
           isSystemEvent: 0
-          isGlobal: 1
+          isGlobal: 0
         toState: Explode
         linkStyle: 0
         linkConstraint: 0
@@ -924,7 +925,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: Return
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: StartRagDoll
       isSystemEvent: 0
       isGlobal: 1
@@ -1036,6 +1037,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 6190654927782912352}
+--- !u!114 &5433953328881656764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429117322076684755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 6190654927782912352}
 --- !u!1 &3129985838160785457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,6 +1154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7893621406979318807}
   - component: {fileID: 6190654927782912285}
+  - component: {fileID: 5515920461401993642}
   m_Layer: 0
   m_Name: Piston Device Combo
   m_TagString: Untagged
@@ -1539,7 +1555,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1567,7 +1583,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 0
+    handleFixedUpdate: 1
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
@@ -1576,3 +1592,17 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &5515920461401993642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7403942476628344493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 6190654927782912285}
