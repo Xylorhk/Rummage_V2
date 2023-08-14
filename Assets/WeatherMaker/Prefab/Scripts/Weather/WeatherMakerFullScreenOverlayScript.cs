@@ -224,7 +224,7 @@ namespace DigitalRuby.WeatherMaker
                     camera.cameraType == CameraType.Game &&
                     (camera.actualRenderingPath == RenderingPath.Forward || camera.actualRenderingPath == RenderingPath.VertexLit))
                 {
-                    //Debug.LogError("Weather Maker full screen overlay works best with deferred shading");
+                    Debug.LogError("Weather Maker full screen overlay works best with deferred shading");
                 }
 
 #endif

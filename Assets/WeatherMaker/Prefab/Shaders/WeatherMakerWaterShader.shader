@@ -118,7 +118,7 @@ Shader "WeatherMaker/WeatherMakerWaterShader"
 
 		ENDCG
 
-	/* 	GrabPass { "_CameraOpaqueTexture" } */
+		GrabPass { "_CameraOpaqueTexture" }
 
 		Pass
 		{
