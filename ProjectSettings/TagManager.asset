@@ -12,6 +12,7 @@ TagManager:
   - ColliderStreamerManager
   - Manager
   - Ragdoll
+  - Conveyer
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - Interactable
   - RagdollBones
   - Movers
-  - 
+  - Conveyers
   - 
   - 
   - 
