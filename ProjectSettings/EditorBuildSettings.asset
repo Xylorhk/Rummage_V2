@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/TestScenes/Playgrounds/Player Mechanics.unity
+    guid: 5a216e2fb7250f64fb3c504a9998ea9f
+  - enabled: 0
     path: Assets/Scenes/TestScenes/Platform Playground.unity
     guid: 88e5ad9cbf148d6479d8f78d1463a9f8
   m_configObjects:
