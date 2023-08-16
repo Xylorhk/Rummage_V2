@@ -21,8 +21,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: b78fbc9cd9daad34d84d029d90ff2ed0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Scrolling_Convayer:
-        m_Texture: {fileID: 2800000, guid: cc8bc121b0526c548a9f8340e2e0ff3f, type: 3}
+        m_Texture: {fileID: 2800000, guid: aaeffe2e98233c940ba0c8a13be4abff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _roughness:
+        m_Texture: {fileID: 2800000, guid: 2e7da9dbdb3790e43bb03e729b299b65, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -39,10 +47,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Normal_Strength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Speed: {r: 0, g: 3, b: 0, a: 0}
+    - _Color: {r: 1, g: 0.9360819, b: 0.8443396, a: 0}
+    - _Speed: {r: 0, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7655061103923474808
 MonoBehaviour:
