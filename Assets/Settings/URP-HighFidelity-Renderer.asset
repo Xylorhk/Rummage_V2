@@ -27,7 +27,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   m_Shader: {fileID: 4800000, guid: 0f854b35a0cf61a429bd5dcfea30eddd, type: 3}
---- !u!114 &-3157627127984343423
+--- !u!114 &-4606600406184165249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,10 +66,10 @@ MonoBehaviour:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,
       type: 3}
   m_RendererFeatures:
-  - {fileID: -3157627127984343423}
+  - {fileID: -4606600406184165249}
   - {fileID: -5628622815332081451}
   - {fileID: -7431191452884797483}
-  m_RendererFeatureMap: 81365b5fdbda2dd4d5e078055f1de3b1d5f7e1e8be1adf98
+  m_RendererFeatureMap: 7f00395f561112c0d5e078055f1de3b1d5f7e1e8be1adf98
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}

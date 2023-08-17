@@ -2419,7 +2419,7 @@ MonoBehaviour:
         - 
         - Reverse
         - 
-        byteData: 01010000000101010001010101
+        byteData: 01010000000101000101010101
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -2669,7 +2669,7 @@ MonoBehaviour:
         - 
         - 
         - Move
-        byteData: 0101010000000101010001010101
+        byteData: 0101010000000101000101010101
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
