@@ -20255,6 +20255,21 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6985217060765650397}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4005688052583462271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7985573676042467060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5457458184833126481}
+  - {fileID: 8942806633710170177}
 --- !u!114 &5457458184833126481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25922,21 +25937,6 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
---- !u!114 &4005688052583462271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7985573676042467060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TargetFSMs:
-  - {fileID: 5457458184833126481}
-  - {fileID: 8942806633710170177}
 --- !u!54 &7985573676042467062 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 1018390873774750507, guid: dbdb5724dbe209c4c8db74825c9f3f5d,
