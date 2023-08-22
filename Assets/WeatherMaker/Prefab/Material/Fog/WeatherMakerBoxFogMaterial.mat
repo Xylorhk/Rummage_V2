@@ -72,6 +72,6 @@ Material:
     - _WeatherMakerFogBoxMin: {r: -8, g: -1, b: 12, a: 0}
     - _WeatherMakerFogBoxMinDir: {r: 0, g: 0, b: 0, a: 0}
     - _WeatherMakerFogColor: {r: 0.07066571, g: 0.07927439, b: 0.09433961, a: 1}
-    - _WeatherMakerFogNoiseVelocity: {r: -286.61038, g: 382.14835, b: -764.2967, a: 0}
+    - _WeatherMakerFogNoiseVelocity: {r: -262.04962, g: 349.39236, b: -698.7847, a: 0}
     - _WeatherMakerFogVolumePower: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
