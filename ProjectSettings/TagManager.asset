@@ -13,6 +13,8 @@ TagManager:
   - Manager
   - Ragdoll
   - Conveyer
+  - Terminal
+  - Liftable
   layers:
   - Default
   - TransparentFX

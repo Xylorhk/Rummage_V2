@@ -1154,7 +1154,7 @@ MonoBehaviour:
       - fsmEvent:
           name: Turn_Pos1
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: Pos 1
         linkStyle: 0
         linkConstraint: 0
@@ -1163,7 +1163,7 @@ MonoBehaviour:
       - fsmEvent:
           name: Turn_Pos2
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: Pos 2
         linkStyle: 0
         linkConstraint: 0
@@ -1172,7 +1172,7 @@ MonoBehaviour:
       - fsmEvent:
           name: Turn_Pos3
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: Pos 3
         linkStyle: 0
         linkConstraint: 0
@@ -1828,13 +1828,13 @@ MonoBehaviour:
       isGlobal: 1
     - name: Turn_Pos1
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Turn_Pos2
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Turn_Pos3
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0

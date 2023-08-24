@@ -123,3 +123,20 @@ MonoBehaviour:
   - UpdateSpeed
   - Interact
   - Go
+  - SendEvent0
+  - SendEvent1
+  - SendEvent2
+  - SendEvent3
+  - EventCamera / Stop
+  - EventCamera / Start
+  - Turn_Pos1
+  - Turn / Pos1
+  - Turn_Pos2
+  - Turn / Pos2
+  - Turn_Pos3
+  - Turn / Pos3
+  - Terminal / SendEvent0
+  - Terminal / SendEvent1
+  - Terminal / SendEvent2
+  - Terminal / SendEvent3
+  - Return

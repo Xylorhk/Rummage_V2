@@ -2890,27 +2890,27 @@ MonoBehaviour:
         linkTarget: 0
         colorIndex: 0
       - fsmEvent:
-          name: Turn_Pos1
+          name: Turn / Pos1
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: Pos 1
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
         colorIndex: 0
       - fsmEvent:
-          name: Turn_Pos2
+          name: Turn / Pos2
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: Pos 2
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
         colorIndex: 0
       - fsmEvent:
-          name: Turn_Pos3
+          name: Turn / Pos3
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: Pos 3
         linkStyle: 0
         linkConstraint: 0
@@ -3035,9 +3035,9 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Reverse
-        - Turn_Pos1
-        - Turn_Pos2
-        - Turn_Pos3
+        - Turn / Pos1
+        - Turn / Pos2
+        - Turn / Pos3
         byteData: 00000000000000000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -3218,7 +3218,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 1
+          value: 2
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -3362,7 +3362,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 1
+          value: 2
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -3506,7 +3506,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 1
+          value: 2
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -3561,21 +3561,21 @@ MonoBehaviour:
         paramDataPos: 00000000000000000000000004000000010000000100000000000000000000000000000000000000010000000000000008000000000000000c0000001000000011000000
         paramByteDataSize: 0400000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000400000000000000040000000100000004000000
     events:
-    - name: Reverse
-      isSystemEvent: 0
-      isGlobal: 1
-    - name: Turn_Pos1
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: Turn_Pos2
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: Turn_Pos3
-      isSystemEvent: 0
-      isGlobal: 0
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
+    - name: Reverse
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Turn / Pos1
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Turn / Pos2
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Turn / Pos3
+      isSystemEvent: 0
+      isGlobal: 1
     globalTransitions: []
     variables:
       floatVariables:
