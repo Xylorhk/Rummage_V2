@@ -961,7 +961,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 030000000500000007000000
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1012,7 +1012,6 @@ GameObject:
   - component: {fileID: 6591151469146477706}
   - component: {fileID: 2514282390707427585}
   - component: {fileID: 2174369805518857759}
-  - component: {fileID: 2558945438537756313}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1293,19 +1292,6 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
---- !u!114 &2558945438537756313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8046619096103225097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e28753498e7cc614d993d7aece41ac88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FrameRate: 30
 --- !u!1001 &2419493961758389207
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2185923656949434692}
   m_Layer: 10
   m_Name: LiftableCube
-  m_TagString: Untagged
+  m_TagString: Liftable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
