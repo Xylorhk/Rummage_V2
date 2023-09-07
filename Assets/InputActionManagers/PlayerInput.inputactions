@@ -148,6 +148,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "MaskToggle",
+                    "type": "Button",
+                    "id": "60f8ead7-0b22-4495-8bc2-9848af157e96",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -418,7 +427,7 @@
                 {
                     "name": "",
                     "id": "e0f8f305-505a-490d-a501-cf77f969ba12",
-                    "path": "<Keyboard>/f",
+                    "path": "<Keyboard>/u",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -533,6 +542,17 @@
                     "processors": "",
                     "groups": "Keyboard",
                     "action": "TargetSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c76fb75b-db71-4bf9-8fd0-f062ae87f6ed",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "MaskToggle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
